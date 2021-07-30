@@ -35,3 +35,9 @@ import javax.swing.JTextField;
 import javax.swing.ListSelectionModel;
 
 import exception.InputException;
+
+@SuppressWarnings("serial")
+public class DynamicVocaGUI extends JFrame {
+	private DynamicVocaHandler dynamicHandler = DynamicVocaHandler.createDynamicVocaHandlerInst();
+	private final Component mComponent = this;
+	private Image screenImage;
