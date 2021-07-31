@@ -49,3 +49,8 @@ public class DynamicVocaGUI extends JFrame {
 	private boolean isTestEnd;
 
 	private int mouseX, mouseY;
+
+	private ImageIcon mainBackgroundImage = new ImageIcon("images/mainBackground.jpg");
+	private ImageIcon subBackgroundImage = new ImageIcon("images/subBackground.jpg");
+	private ImageIcon testMenuButtonImage = new ImageIcon("images/testMenuButton.png");
+	private ImageIcon testMenuEnteredButtonImage = new ImageIcon("images/testMenuEnteredButton.png");
