@@ -45,3 +45,7 @@ public class DynamicVocaGUI extends JFrame {
 	private Image background;
 	private JLabel menuBar;
 	private JButton quitButton;
+	private LimitTimeThread showLimitTime;
+	private boolean isTestEnd;
+
+	private int mouseX, mouseY;
