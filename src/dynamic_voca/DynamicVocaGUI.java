@@ -41,3 +41,7 @@ public class DynamicVocaGUI extends JFrame {
 	private DynamicVocaHandler dynamicHandler = DynamicVocaHandler.createDynamicVocaHandlerInst();
 	private final Component mComponent = this;
 	private Image screenImage;
+	private Graphics screenGraphic;
+	private Image background;
+	private JLabel menuBar;
+	private JButton quitButton;
