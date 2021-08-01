@@ -68,3 +68,6 @@ public class DynamicVocaGUI extends JFrame {
 	private ImageIcon quitEnteredButtonImage = new ImageIcon("images/quitEnteredButton.png");
 	private ImageIcon appendButtonImage = new ImageIcon("images/appendButton.png");
 	private ImageIcon appendEnteredButtonImage = new ImageIcon("images/appendEnteredButton.png");
+	private ImageIcon backButtonImage = new ImageIcon("images/backButton.png");
+	private ImageIcon backEnteredButtonImage = new ImageIcon("images/backEnteredButton.png");
+	private ImageIcon deleteButtonImage = new ImageIcon("images/deleteButton.png");
