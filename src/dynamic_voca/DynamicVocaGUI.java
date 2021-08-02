@@ -92,3 +92,7 @@ public class DynamicVocaGUI extends JFrame {
 	private JButton loadMenuButton;
 	private JButton apndMenuButton;
 	private JButton searchMenuButton;
+	private JButton infoMenuButton;
+	private JButton quitMenuButton;
+
+	// Test Components
