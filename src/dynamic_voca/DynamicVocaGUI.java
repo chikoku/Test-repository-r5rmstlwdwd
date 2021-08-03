@@ -96,3 +96,9 @@ public class DynamicVocaGUI extends JFrame {
 	private JButton quitMenuButton;
 
 	// Test Components
+	private JLabel questionLabel = new JLabel("¹®Á¦");
+	private JLabel limitTimeLabel = new JLabel();
+	private JTextField questionField = new JTextField();
+	private JTextField answerField = new JTextField();
+	private JTextArea situationArea = new JTextArea();
+	private JTextArea testInfoArea = new JTextArea();
