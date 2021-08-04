@@ -102,3 +102,10 @@ public class DynamicVocaGUI extends JFrame {
 	private JTextField answerField = new JTextField();
 	private JTextArea situationArea = new JTextArea();
 	private JTextArea testInfoArea = new JTextArea();
+	private JLabel testInfoLabel = new JLabel("테스트 정보");
+	private JScrollPane testInfoScrollPane = new JScrollPane(testInfoArea, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
+			JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+	private JButton saveButton = new JButton();
+	private JButton quitTestButton = new JButton();
+
+	// Select VocaCollectionFile for test Components
