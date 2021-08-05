@@ -109,3 +109,6 @@ public class DynamicVocaGUI extends JFrame {
 	private JButton quitTestButton = new JButton();
 
 	// Select VocaCollectionFile for test Components
+	private JLabel testCollectionListLabel = new JLabel("테스트 목록");
+	private JList<String> testCollectionList = new JList<>();
+	private JScrollPane testListScrollPane = new JScrollPane(testCollectionList,
