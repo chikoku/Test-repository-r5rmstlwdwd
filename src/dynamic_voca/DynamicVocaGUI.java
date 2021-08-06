@@ -123,3 +123,7 @@ public class DynamicVocaGUI extends JFrame {
 
 	// Load Components
 	private JLabel loadCollectionListLabel = new JLabel("저장 목록");
+	private JList<String> loadCollectionList = new JList<>();
+	private JScrollPane loadListScrollPane = new JScrollPane(loadCollectionList,
+			JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+	private JButton selectLoadButton = new JButton();
