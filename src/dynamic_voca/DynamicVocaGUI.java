@@ -115,3 +115,7 @@ public class DynamicVocaGUI extends JFrame {
 			JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 	private JLabel selectlimitTimeLabel = new JLabel("제한 시간");
 	private final String[] limitTimes = { "3초", "5초", "10초", "30초", "무제한" };
+	private JComboBox<String> limitTimeComboBox = new JComboBox<>(limitTimes);
+	private JCheckBox allowColorByMistakeCntCheckBox = new JCheckBox("오답 수에 따른 색깔 표현 허용");
+	private JCheckBox allowEffectSoundCheckBox = new JCheckBox("효과음 허용");
+	private JButton selectTestButton = new JButton();
