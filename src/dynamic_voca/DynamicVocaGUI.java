@@ -112,3 +112,6 @@ public class DynamicVocaGUI extends JFrame {
 	private JLabel testCollectionListLabel = new JLabel("테스트 목록");
 	private JList<String> testCollectionList = new JList<>();
 	private JScrollPane testListScrollPane = new JScrollPane(testCollectionList,
+			JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+	private JLabel selectlimitTimeLabel = new JLabel("제한 시간");
+	private final String[] limitTimes = { "3초", "5초", "10초", "30초", "무제한" };
