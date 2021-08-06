@@ -119,3 +119,7 @@ public class DynamicVocaGUI extends JFrame {
 	private JCheckBox allowColorByMistakeCntCheckBox = new JCheckBox("오답 수에 따른 색깔 표현 허용");
 	private JCheckBox allowEffectSoundCheckBox = new JCheckBox("효과음 허용");
 	private JButton selectTestButton = new JButton();
+	private JButton cancelTestButton = new JButton();
+
+	// Load Components
+	private JLabel loadCollectionListLabel = new JLabel("저장 목록");
