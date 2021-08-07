@@ -134,3 +134,8 @@ public class DynamicVocaGUI extends JFrame {
 	// Select VocaCollectionFile for append Components
 	private JLabel collectionListLabel = new JLabel("문제집 목록");
 	private JList<String> collectionList = new JList<>();
+	private JScrollPane listScrollPane = new JScrollPane(collectionList, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
+			JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+	private JLabel newCollectionNameLabel = new JLabel("생성할 문제집 이름");
+	private JTextField newCollectionNameField = new JTextField();
+	private JButton createCollectionButton = new JButton();
