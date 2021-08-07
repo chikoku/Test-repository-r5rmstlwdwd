@@ -127,3 +127,6 @@ public class DynamicVocaGUI extends JFrame {
 	private JScrollPane loadListScrollPane = new JScrollPane(loadCollectionList,
 			JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 	private JButton selectLoadButton = new JButton();
+	private JButton cancelLoadButton = new JButton();
+	private JButton deleteLoadButton = new JButton();
+	private JButton retestLoadButton = new JButton();
