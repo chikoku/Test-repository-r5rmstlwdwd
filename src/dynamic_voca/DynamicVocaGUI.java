@@ -130,3 +130,7 @@ public class DynamicVocaGUI extends JFrame {
 	private JButton cancelLoadButton = new JButton();
 	private JButton deleteLoadButton = new JButton();
 	private JButton retestLoadButton = new JButton();
+
+	// Select VocaCollectionFile for append Components
+	private JLabel collectionListLabel = new JLabel("문제집 목록");
+	private JList<String> collectionList = new JList<>();
