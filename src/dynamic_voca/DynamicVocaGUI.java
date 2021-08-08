@@ -139,3 +139,10 @@ public class DynamicVocaGUI extends JFrame {
 	private JLabel newCollectionNameLabel = new JLabel("생성할 문제집 이름");
 	private JTextField newCollectionNameField = new JTextField();
 	private JButton createCollectionButton = new JButton();
+	private JButton selectCollectionButton = new JButton();
+	private JButton deleteCollectionButton = new JButton();
+	private JButton cancelCollectionButton = new JButton();
+
+	// Append Components
+	private JLabel englishLabel = new JLabel("단어");
+	private JTextField englishField = new JTextField();
