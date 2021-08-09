@@ -146,3 +146,8 @@ public class DynamicVocaGUI extends JFrame {
 	// Append Components
 	private JLabel englishLabel = new JLabel("단어");
 	private JTextField englishField = new JTextField();
+	private JLabel koreanLabel = new JLabel("의미");
+	private JTextField[] koreanFields = new JTextField[3];
+	private JTextArea checkApndArea = new JTextArea();
+	private JLabel fileNameLabel = new JLabel();
+	private JScrollPane apndAreaScrollPane = new JScrollPane(checkApndArea, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
