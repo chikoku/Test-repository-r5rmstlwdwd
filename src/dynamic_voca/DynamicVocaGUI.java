@@ -151,3 +151,9 @@ public class DynamicVocaGUI extends JFrame {
 	private JTextArea checkApndArea = new JTextArea();
 	private JLabel fileNameLabel = new JLabel();
 	private JScrollPane apndAreaScrollPane = new JScrollPane(checkApndArea, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
+			JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+	private JButton vocaApndButton = new JButton();
+	private JButton apndQuitButton = new JButton();
+
+	// search Components
+	private JTextField inputField = new JTextField();
