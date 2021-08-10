@@ -161,3 +161,12 @@ public class DynamicVocaGUI extends JFrame {
 	private JTextArea searchResultArea = new JTextArea();
 	private JScrollPane searchAreaScrollPane = new JScrollPane(searchResultArea,
 			JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+	private JButton searchButton = new JButton();
+	private JButton deleteButton = new JButton();
+	private JButton showTotalButton = new JButton();
+	private JButton searchQuitButton = new JButton();
+	private JButton initMisCntButton = new JButton();
+
+	// Information Components
+	private JTextArea developInfoArea = new JTextArea();
+	private JButton infoQuitButton = new JButton();
