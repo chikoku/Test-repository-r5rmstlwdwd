@@ -157,3 +157,7 @@ public class DynamicVocaGUI extends JFrame {
 
 	// search Components
 	private JTextField inputField = new JTextField();
+	private JLabel infoLabel = new JLabel("Á¤º¸");
+	private JTextArea searchResultArea = new JTextArea();
+	private JScrollPane searchAreaScrollPane = new JScrollPane(searchResultArea,
+			JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
