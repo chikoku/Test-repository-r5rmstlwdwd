@@ -170,3 +170,11 @@ public class DynamicVocaGUI extends JFrame {
 	// Information Components
 	private JTextArea developInfoArea = new JTextArea();
 	private JButton infoQuitButton = new JButton();
+
+	public DynamicVocaGUI() {
+		background = mainBackgroundImage.getImage();
+		setUndecorated(true);
+		setTitle("Dynamic Voca");
+		setSize(Main.SCREEN_WIDTH, Main.SCREEN_HEIGHT);
+		setResizable(false);
+		setLocationRelativeTo(null);
