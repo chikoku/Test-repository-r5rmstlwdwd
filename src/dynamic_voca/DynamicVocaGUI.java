@@ -181,3 +181,8 @@ public class DynamicVocaGUI extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
 		setBackground(new Color(0, 0, 0, 0));
+		setLayout(null);
+
+		setQuitButton();
+		setMenuBar();
+		setMenuComponents();
