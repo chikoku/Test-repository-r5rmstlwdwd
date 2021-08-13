@@ -193,3 +193,11 @@ public class DynamicVocaGUI extends JFrame {
 		setLoadComponentsVisible(false);
 		setLoadComponents();
 		setAppendComponentsVisible(false);
+		setAppendComponents();
+		setSelectForAppendComponentsVisible(false);
+		setSelectForAppendComponents();
+		setSearchComponentsVisible(false);
+		setSearchComponents();
+		setInformationComponentsVisible(false);
+		setInformationComponents();
+	}
