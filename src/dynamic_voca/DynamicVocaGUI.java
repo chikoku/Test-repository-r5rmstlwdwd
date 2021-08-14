@@ -212,3 +212,8 @@ public class DynamicVocaGUI extends JFrame {
 		testMenuButton.setBackground(new Color(0, 0, 0, 0));
 		testMenuButton.setBorderPainted(false);
 		testMenuButton.setBounds(posX, posY, BUTTON_WIDTH, BUTTON_HEIGHT);
+		testMenuButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				testMenuButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				testMenuButton.setIcon(testMenuEnteredButtonImage);
