@@ -201,3 +201,9 @@ public class DynamicVocaGUI extends JFrame {
 		setInformationComponentsVisible(false);
 		setInformationComponents();
 	}
+
+	public void setMenuComponents() {
+		int posX = 100, posY = 100;
+		final int BUTTON_WIDTH = 273;
+		final int BUTTON_HEIGHT = 80;
+		final int INTERVAL = 90;
