@@ -207,3 +207,8 @@ public class DynamicVocaGUI extends JFrame {
 		final int BUTTON_WIDTH = 273;
 		final int BUTTON_HEIGHT = 80;
 		final int INTERVAL = 90;
+
+		testMenuButton = new JButton(testMenuButtonImage);
+		testMenuButton.setBackground(new Color(0, 0, 0, 0));
+		testMenuButton.setBorderPainted(false);
+		testMenuButton.setBounds(posX, posY, BUTTON_WIDTH, BUTTON_HEIGHT);
