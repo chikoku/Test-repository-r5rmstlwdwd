@@ -238,3 +238,7 @@ public class DynamicVocaGUI extends JFrame {
 			}
 		});
 		add(testMenuButton);
+
+		loadMenuButton = new JButton(loadMenuButtonImage);
+		loadMenuButton.setBackground(new Color(0, 0, 0, 0));
+		loadMenuButton.setBorderPainted(false);
