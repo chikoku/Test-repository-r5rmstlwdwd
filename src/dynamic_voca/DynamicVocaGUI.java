@@ -233,3 +233,8 @@ public class DynamicVocaGUI extends JFrame {
 				buttonPressedSound.start();
 				background = subBackgroundImage.getImage();
 				setSelectForTestComponentsVisible(true);
+				setMenuComponentsVisible(false);
+				answerField.requestFocus();
+			}
+		});
+		add(testMenuButton);
