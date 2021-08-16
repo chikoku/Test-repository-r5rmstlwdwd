@@ -242,3 +242,8 @@ public class DynamicVocaGUI extends JFrame {
 		loadMenuButton = new JButton(loadMenuButtonImage);
 		loadMenuButton.setBackground(new Color(0, 0, 0, 0));
 		loadMenuButton.setBorderPainted(false);
+		loadMenuButton.setBounds(posX, posY += INTERVAL, BUTTON_WIDTH, BUTTON_HEIGHT);
+		loadMenuButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				loadMenuButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
