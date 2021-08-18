@@ -263,3 +263,8 @@ public class DynamicVocaGUI extends JFrame {
 				Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
 				buttonPressedSound.start();
 				background = subBackgroundImage.getImage();
+				setLoadComponentsVisible(true);
+				setMenuComponentsVisible(false);
+			}
+		});
+		add(loadMenuButton);
