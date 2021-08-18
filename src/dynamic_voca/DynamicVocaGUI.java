@@ -257,3 +257,9 @@ public class DynamicVocaGUI extends JFrame {
 				loadMenuButton.setIcon(loadMenuButtonImage);
 				loadMenuButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
 			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
+				buttonPressedSound.start();
+				background = subBackgroundImage.getImage();
