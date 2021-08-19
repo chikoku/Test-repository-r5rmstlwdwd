@@ -274,3 +274,10 @@ public class DynamicVocaGUI extends JFrame {
 		apndMenuButton.setBorderPainted(false);
 		apndMenuButton.setBounds(posX, posY += INTERVAL, BUTTON_WIDTH, BUTTON_HEIGHT);
 		apndMenuButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				apndMenuButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				apndMenuButton.setIcon(apndMenuEnteredButtonImage);
+				Sound EnteredButtonSound = new Sound("ButtonEnteredSound.mp3", false);
+				EnteredButtonSound.start();
+			}
