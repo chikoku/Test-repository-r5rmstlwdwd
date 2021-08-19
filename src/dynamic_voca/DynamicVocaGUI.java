@@ -268,3 +268,9 @@ public class DynamicVocaGUI extends JFrame {
 			}
 		});
 		add(loadMenuButton);
+
+		apndMenuButton = new JButton(apndMenuButtonImage);
+		apndMenuButton.setBackground(new Color(0, 0, 0, 0));
+		apndMenuButton.setBorderPainted(false);
+		apndMenuButton.setBounds(posX, posY += INTERVAL, BUTTON_WIDTH, BUTTON_HEIGHT);
+		apndMenuButton.addMouseListener(new MouseAdapter() {
