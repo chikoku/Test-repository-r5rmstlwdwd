@@ -285,3 +285,7 @@ public class DynamicVocaGUI extends JFrame {
 			@Override
 			public void mouseExited(MouseEvent e) {
 				apndMenuButton.setIcon(apndMenuButtonImage);
+				apndMenuButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+			}
+
+			@Override
