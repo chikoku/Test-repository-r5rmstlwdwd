@@ -304,3 +304,6 @@ public class DynamicVocaGUI extends JFrame {
 		searchMenuButton.setBorderPainted(false);
 		searchMenuButton.setBounds(posX, posY += INTERVAL, BUTTON_WIDTH, BUTTON_HEIGHT);
 		searchMenuButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				searchMenuButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
