@@ -317,3 +317,5 @@ public class DynamicVocaGUI extends JFrame {
 				searchMenuButton.setIcon(searchMenuButtonImage);
 				searchMenuButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
 			}
+
+			@Override
