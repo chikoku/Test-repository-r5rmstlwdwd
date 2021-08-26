@@ -327,3 +327,7 @@ public class DynamicVocaGUI extends JFrame {
 				setMenuComponentsVisible(false);
 				inputField.requestFocus();
 			}
+		});
+		add(searchMenuButton);
+
+		infoMenuButton = new JButton(infoMenuButtonImage);
