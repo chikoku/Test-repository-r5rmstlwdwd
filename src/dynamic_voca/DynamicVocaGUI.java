@@ -325,3 +325,5 @@ public class DynamicVocaGUI extends JFrame {
 				background = subBackgroundImage.getImage();
 				setSearchComponentsVisible(true);
 				setMenuComponentsVisible(false);
+				inputField.requestFocus();
+			}
