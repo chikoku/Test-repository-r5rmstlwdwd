@@ -340,3 +340,11 @@ public class DynamicVocaGUI extends JFrame {
 				infoMenuButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
 				infoMenuButton.setIcon(infoMenuEnteredButtonImage);
 				Sound EnteredButtonSound = new Sound("ButtonEnteredSound.mp3", false);
+				EnteredButtonSound.start();
+			}
+
+			@Override
+			public void mouseExited(MouseEvent e) {
+				infoMenuButton.setIcon(infoMenuButtonImage);
+				infoMenuButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+			}
