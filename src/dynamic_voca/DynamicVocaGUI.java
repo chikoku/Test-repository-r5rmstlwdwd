@@ -358,3 +358,8 @@ public class DynamicVocaGUI extends JFrame {
 				setMenuComponentsVisible(false);
 			}
 		});
+		add(infoMenuButton);
+
+		quitMenuButton = new JButton(quitMenuButtonImage);
+		quitMenuButton.setBackground(new Color(0, 0, 0, 0));
+		quitMenuButton.setBorderPainted(false);
