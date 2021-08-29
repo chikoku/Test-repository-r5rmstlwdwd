@@ -363,3 +363,8 @@ public class DynamicVocaGUI extends JFrame {
 		quitMenuButton = new JButton(quitMenuButtonImage);
 		quitMenuButton.setBackground(new Color(0, 0, 0, 0));
 		quitMenuButton.setBorderPainted(false);
+		quitMenuButton.setBounds(posX, posY += INTERVAL, BUTTON_WIDTH, BUTTON_HEIGHT);
+		quitMenuButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				quitMenuButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
