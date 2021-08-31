@@ -390,3 +390,10 @@ public class DynamicVocaGUI extends JFrame {
 				}
 				System.exit(0);
 			}
+		});
+		add(quitMenuButton);
+	}
+
+	public void setTestComponents() {
+		final int BUTTON_WIDTH = 173;
+		final int BUTTON_HEIGHT = 80;
