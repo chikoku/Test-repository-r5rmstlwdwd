@@ -397,3 +397,5 @@ public class DynamicVocaGUI extends JFrame {
 	public void setTestComponents() {
 		final int BUTTON_WIDTH = 173;
 		final int BUTTON_HEIGHT = 80;
+
+		saveButton.setIcon(saveButtonImage);
