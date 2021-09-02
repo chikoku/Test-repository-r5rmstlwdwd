@@ -399,3 +399,9 @@ public class DynamicVocaGUI extends JFrame {
 		final int BUTTON_HEIGHT = 80;
 
 		saveButton.setIcon(saveButtonImage);
+		saveButton.setBackground(new Color(0, 0, 0, 0));
+		saveButton.setBorderPainted(false);
+		saveButton.setBounds(820, 270, BUTTON_WIDTH, BUTTON_HEIGHT);
+		saveButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
