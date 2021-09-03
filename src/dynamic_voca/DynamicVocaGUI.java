@@ -405,3 +405,8 @@ public class DynamicVocaGUI extends JFrame {
 		saveButton.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseEntered(MouseEvent e) {
+				saveButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				saveButton.setIcon(saveEnteredButtonImage);
+				Sound EnteredButtonSound = new Sound("ButtonEnteredSound.mp3", false);
+				EnteredButtonSound.start();
+			}
