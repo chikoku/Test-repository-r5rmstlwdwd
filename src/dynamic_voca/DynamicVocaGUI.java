@@ -423,3 +423,6 @@ public class DynamicVocaGUI extends JFrame {
 				buttonPressedSound.start();
 				testInfoArea.append(dynamicHandler.saveQuestionList());
 				testInfoArea.append(" 저장완료\n");
+				loadCollectionList.setListData(dynamicHandler.loadQuestionListFileList());
+			}
+		});
