@@ -431,3 +431,7 @@ public class DynamicVocaGUI extends JFrame {
 		quitTestButton.setIcon(backButtonImage);
 		quitTestButton.setBackground(new Color(0, 0, 0, 0));
 		quitTestButton.setBorderPainted(false);
+		quitTestButton.setBounds(1020, 270, BUTTON_WIDTH, BUTTON_HEIGHT);
+		quitTestButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
