@@ -426,3 +426,8 @@ public class DynamicVocaGUI extends JFrame {
 				loadCollectionList.setListData(dynamicHandler.loadQuestionListFileList());
 			}
 		});
+		add(saveButton);
+
+		quitTestButton.setIcon(backButtonImage);
+		quitTestButton.setBackground(new Color(0, 0, 0, 0));
+		quitTestButton.setBorderPainted(false);
