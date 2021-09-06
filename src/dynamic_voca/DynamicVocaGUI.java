@@ -446,3 +446,7 @@ public class DynamicVocaGUI extends JFrame {
 				quitTestButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
 				quitTestButton.setIcon(backButtonImage);
 			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				if (dynamicHandler.getLimitTime() != 0 && !questionField.getText().equals("테스트 완료"))
