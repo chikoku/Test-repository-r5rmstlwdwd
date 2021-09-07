@@ -450,3 +450,12 @@ public class DynamicVocaGUI extends JFrame {
 			@Override
 			public void mousePressed(MouseEvent e) {
 				if (dynamicHandler.getLimitTime() != 0 && !questionField.getText().equals("테스트 완료"))
+					showLimitTime.interrupt();
+				Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
+				buttonPressedSound.start();
+				background = mainBackgroundImage.getImage();
+				setTestComponentsVisible(false);
+				setMenuComponentsVisible(true);
+				answerField.setText("");
+				testInfoArea.setText("");
+				questionField.setText("");
