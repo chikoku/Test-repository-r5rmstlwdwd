@@ -459,3 +459,9 @@ public class DynamicVocaGUI extends JFrame {
 				answerField.setText("");
 				testInfoArea.setText("");
 				questionField.setText("");
+				situationArea.setText("");
+				answerField.setEditable(true);
+				dynamicHandler.saveVocaSet();
+				limitTimeLabel.setText("");
+			}
+		});
