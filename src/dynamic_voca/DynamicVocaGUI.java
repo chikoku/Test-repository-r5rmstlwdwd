@@ -470,3 +470,7 @@ public class DynamicVocaGUI extends JFrame {
 		limitTimeLabel.setBounds(580, 50, 200, 50);
 		limitTimeLabel.setForeground(Color.ORANGE);
 		limitTimeLabel.setFont(new Font("basic", Font.ITALIC, 50));
+		add(limitTimeLabel);
+
+		questionLabel.setBounds(730, 100, 100, 50);
+		questionLabel.setForeground(Color.black);
