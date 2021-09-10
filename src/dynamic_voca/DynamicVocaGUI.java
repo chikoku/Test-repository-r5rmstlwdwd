@@ -480,3 +480,10 @@ public class DynamicVocaGUI extends JFrame {
 		questionField.setBounds(830, 100, 350, 50);
 		questionField.setBackground(Color.GRAY);
 		questionField.setFont(new Font("basic", 0, 24));
+		questionField.setEditable(false);
+		add(questionField);
+
+		answerField.setBounds(830, 200, 350, 50);
+		answerField.setFont(new Font("basic", 0, 24));
+		answerField.addActionListener(new ActionListener() {
+			@Override
