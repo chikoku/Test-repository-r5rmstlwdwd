@@ -474,3 +474,9 @@ public class DynamicVocaGUI extends JFrame {
 
 		questionLabel.setBounds(730, 100, 100, 50);
 		questionLabel.setForeground(Color.black);
+		questionLabel.setFont(new Font("basic", 0, 30));
+		add(questionLabel);
+
+		questionField.setBounds(830, 100, 350, 50);
+		questionField.setBackground(Color.GRAY);
+		questionField.setFont(new Font("basic", 0, 24));
