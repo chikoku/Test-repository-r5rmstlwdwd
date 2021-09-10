@@ -487,3 +487,8 @@ public class DynamicVocaGUI extends JFrame {
 		answerField.setFont(new Font("basic", 0, 24));
 		answerField.addActionListener(new ActionListener() {
 			@Override
+			public void actionPerformed(ActionEvent e) {
+				dynamicHandler.setNextQuestion();
+				testInfoArea.append(dynamicHandler.testVocaInfo(answerField.getText()));
+				situationArea.setText(dynamicHandler.testSituationInfo());
+				questionField.setText(dynamicHandler.getQuestion());
