@@ -495,3 +495,6 @@ public class DynamicVocaGUI extends JFrame {
 				answerField.setText("");
 				answerField.requestFocus();
 				if (questionField.getText().equals("테스트 완료")) {
+					isTestEnd = true;
+					answerField.setEditable(false);
+					questionField.requestFocus();
