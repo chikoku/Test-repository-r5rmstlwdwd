@@ -492,3 +492,6 @@ public class DynamicVocaGUI extends JFrame {
 				testInfoArea.append(dynamicHandler.testVocaInfo(answerField.getText()));
 				situationArea.setText(dynamicHandler.testSituationInfo());
 				questionField.setText(dynamicHandler.getQuestion());
+				answerField.setText("");
+				answerField.requestFocus();
+				if (questionField.getText().equals("테스트 완료")) {
