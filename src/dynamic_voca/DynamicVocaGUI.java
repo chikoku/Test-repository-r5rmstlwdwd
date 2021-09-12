@@ -503,3 +503,10 @@ public class DynamicVocaGUI extends JFrame {
 					return;
 				}
 				setQuestionFieldColor();
+			}
+		});
+		add(answerField);
+
+		situationArea.setBounds(830, 370, 350, 250);
+		situationArea.setFont(new Font("area", 0, 24));
+		situationArea.setBackground(Color.LIGHT_GRAY);
