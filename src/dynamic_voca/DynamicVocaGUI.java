@@ -498,3 +498,8 @@ public class DynamicVocaGUI extends JFrame {
 					isTestEnd = true;
 					answerField.setEditable(false);
 					questionField.requestFocus();
+					questionField.setForeground(Color.black);
+					limitTimeLabel.setText("");
+					return;
+				}
+				setQuestionFieldColor();
