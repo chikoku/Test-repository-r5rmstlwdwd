@@ -510,3 +510,8 @@ public class DynamicVocaGUI extends JFrame {
 		situationArea.setBounds(830, 370, 350, 250);
 		situationArea.setFont(new Font("area", 0, 24));
 		situationArea.setBackground(Color.LIGHT_GRAY);
+		situationArea.setEditable(false);
+		add(situationArea);
+
+		testInfoLabel.setBounds(100, 100, 300, 50);
+		testInfoLabel.setForeground(Color.black);
