@@ -531,3 +531,10 @@ public class DynamicVocaGUI extends JFrame {
 		final int BUTTON_HEIGHT = 80;
 
 		selectTestButton.setIcon(selectButtonImage);
+		selectTestButton.setBackground(new Color(0, 0, 0, 0));
+		selectTestButton.setBorderPainted(false);
+		selectTestButton.setBounds(760, 420, BUTTON_WIDTH, BUTTON_HEIGHT);
+		selectTestButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				selectTestButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
