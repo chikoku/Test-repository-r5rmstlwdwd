@@ -515,3 +515,12 @@ public class DynamicVocaGUI extends JFrame {
 
 		testInfoLabel.setBounds(100, 100, 300, 50);
 		testInfoLabel.setForeground(Color.black);
+		testInfoLabel.setFont(new Font("basic", 0, 30));
+		add(testInfoLabel);
+
+		testInfoScrollPane.setBounds(100, 150, 500, 470);
+		testInfoArea.setLineWrap(true);
+		testInfoArea.setWrapStyleWord(true);
+		testInfoArea.setFont(new Font("area", 0, 16));
+		testInfoArea.setEditable(false);
+		add(testInfoScrollPane);
