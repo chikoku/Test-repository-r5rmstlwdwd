@@ -524,3 +524,10 @@ public class DynamicVocaGUI extends JFrame {
 		testInfoArea.setFont(new Font("area", 0, 16));
 		testInfoArea.setEditable(false);
 		add(testInfoScrollPane);
+	}
+
+	public void setSelectForTestComponents() {
+		final int BUTTON_WIDTH = 173;
+		final int BUTTON_HEIGHT = 80;
+
+		selectTestButton.setIcon(selectButtonImage);
