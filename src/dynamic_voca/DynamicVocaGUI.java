@@ -544,3 +544,10 @@ public class DynamicVocaGUI extends JFrame {
 			}
 
 			@Override
+			public void mouseExited(MouseEvent e) {
+				selectTestButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+				selectTestButton.setIcon(selectButtonImage);
+			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
