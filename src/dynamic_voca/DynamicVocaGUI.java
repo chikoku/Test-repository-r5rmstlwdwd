@@ -551,3 +551,8 @@ public class DynamicVocaGUI extends JFrame {
 
 			@Override
 			public void mousePressed(MouseEvent e) {
+				try {
+					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
+					buttonPressedSound.start();
+					dynamicHandler.setSelectedFileName(testCollectionList.getSelectedValue());
+					dynamicHandler.loadVocaSet(dynamicHandler.getSelectedFileName());
