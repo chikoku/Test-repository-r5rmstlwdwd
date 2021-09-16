@@ -570,3 +570,9 @@ public class DynamicVocaGUI extends JFrame {
 						showLimitTime.start();
 					}
 					if (questionField.getText().equals("테스트 완료")) {
+						isTestEnd = true;
+						answerField.setEditable(false);
+						questionField.requestFocus();
+						questionField.setForeground(Color.black);
+						limitTimeLabel.setText("");
+						return;
