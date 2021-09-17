@@ -589,3 +589,6 @@ public class DynamicVocaGUI extends JFrame {
 		cancelTestButton.setBorderPainted(false);
 		cancelTestButton.setBounds(980, 420, BUTTON_WIDTH, BUTTON_HEIGHT);
 		cancelTestButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				cancelTestButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
