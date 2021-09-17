@@ -576,3 +576,8 @@ public class DynamicVocaGUI extends JFrame {
 						questionField.setForeground(Color.black);
 						limitTimeLabel.setText("");
 						return;
+					}
+				} catch (InputException expn) {
+					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "°æ°í", JOptionPane.WARNING_MESSAGE);
+				}
+			}
