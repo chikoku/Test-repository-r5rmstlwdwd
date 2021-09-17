@@ -581,3 +581,11 @@ public class DynamicVocaGUI extends JFrame {
 					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "°æ°í", JOptionPane.WARNING_MESSAGE);
 				}
 			}
+		});
+		add(selectTestButton);
+
+		cancelTestButton.setIcon(backButtonImage);
+		cancelTestButton.setBackground(new Color(0, 0, 0, 0));
+		cancelTestButton.setBorderPainted(false);
+		cancelTestButton.setBounds(980, 420, BUTTON_WIDTH, BUTTON_HEIGHT);
+		cancelTestButton.addMouseListener(new MouseAdapter() {
