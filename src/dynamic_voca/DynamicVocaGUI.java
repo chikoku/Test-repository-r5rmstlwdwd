@@ -599,3 +599,6 @@ public class DynamicVocaGUI extends JFrame {
 
 			@Override
 			public void mouseExited(MouseEvent e) {
+				cancelTestButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+				cancelTestButton.setIcon(backButtonImage);
+			}
