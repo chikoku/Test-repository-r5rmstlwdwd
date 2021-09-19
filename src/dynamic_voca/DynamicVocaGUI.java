@@ -618,3 +618,8 @@ public class DynamicVocaGUI extends JFrame {
 		testCollectionListLabel.setForeground(Color.black);
 		testCollectionListLabel.setFont(new Font("basic", 0, 24));
 		add(testCollectionListLabel);
+
+		selectlimitTimeLabel.setBounds(800, 100, 300, 50);
+		selectlimitTimeLabel.setForeground(Color.black);
+		selectlimitTimeLabel.setFont(new Font("basic", 0, 24));
+		add(selectlimitTimeLabel);
