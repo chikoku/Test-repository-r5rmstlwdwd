@@ -611,3 +611,10 @@ public class DynamicVocaGUI extends JFrame {
 				setMenuComponentsVisible(true);
 				buttonPressedSound.start();
 			}
+		});
+		add(cancelTestButton);
+
+		testCollectionListLabel.setBounds(100, 100, 300, 50);
+		testCollectionListLabel.setForeground(Color.black);
+		testCollectionListLabel.setFont(new Font("basic", 0, 24));
+		add(testCollectionListLabel);
