@@ -623,3 +623,7 @@ public class DynamicVocaGUI extends JFrame {
 		selectlimitTimeLabel.setForeground(Color.black);
 		selectlimitTimeLabel.setFont(new Font("basic", 0, 24));
 		add(selectlimitTimeLabel);
+
+		limitTimeComboBox.setBounds(800, 150, 300, 50);
+		limitTimeComboBox.setFont(new Font("basic", 0, 24));
+		add(limitTimeComboBox);
