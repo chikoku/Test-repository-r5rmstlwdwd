@@ -607,3 +607,7 @@ public class DynamicVocaGUI extends JFrame {
 			public void mousePressed(MouseEvent e) {
 				Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
 				background = mainBackgroundImage.getImage();
+				setSelectForTestComponentsVisible(false);
+				setMenuComponentsVisible(true);
+				buttonPressedSound.start();
+			}
