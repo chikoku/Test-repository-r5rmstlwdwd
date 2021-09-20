@@ -627,3 +627,12 @@ public class DynamicVocaGUI extends JFrame {
 		limitTimeComboBox.setBounds(800, 150, 300, 50);
 		limitTimeComboBox.setFont(new Font("basic", 0, 24));
 		add(limitTimeComboBox);
+
+		allowColorByMistakeCntCheckBox.setBounds(780, 250, 400, 50);
+		allowColorByMistakeCntCheckBox.setBackground(new Color(0, 0, 0, 0));
+		allowColorByMistakeCntCheckBox.setFont(new Font("basic", Font.BOLD, 24));
+		allowColorByMistakeCntCheckBox.addItemListener(new ItemListener() {
+			@Override
+			public void itemStateChanged(ItemEvent e) {
+				if (e.getStateChange() == ItemEvent.SELECTED)
+					dynamicHandler.setAllowColorByMistkeCnt(true);
