@@ -644,3 +644,5 @@ public class DynamicVocaGUI extends JFrame {
 		add(allowColorByMistakeCntCheckBox);
 
 		allowEffectSoundCheckBox.setBounds(780, 300, 400, 50);
+		allowEffectSoundCheckBox.setBackground(new Color(0, 0, 0, 0));
+		allowEffectSoundCheckBox.setFont(new Font("basic", Font.BOLD, 24));
