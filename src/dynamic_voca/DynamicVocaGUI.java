@@ -636,3 +636,11 @@ public class DynamicVocaGUI extends JFrame {
 			public void itemStateChanged(ItemEvent e) {
 				if (e.getStateChange() == ItemEvent.SELECTED)
 					dynamicHandler.setAllowColorByMistkeCnt(true);
+				else
+					dynamicHandler.setAllowColorByMistkeCnt(false);
+			}
+
+		});
+		add(allowColorByMistakeCntCheckBox);
+
+		allowEffectSoundCheckBox.setBounds(780, 300, 400, 50);
