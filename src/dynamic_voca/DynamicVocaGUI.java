@@ -646,3 +646,8 @@ public class DynamicVocaGUI extends JFrame {
 		allowEffectSoundCheckBox.setBounds(780, 300, 400, 50);
 		allowEffectSoundCheckBox.setBackground(new Color(0, 0, 0, 0));
 		allowEffectSoundCheckBox.setFont(new Font("basic", Font.BOLD, 24));
+		allowEffectSoundCheckBox.setSelected(true);
+		dynamicHandler.setAllowEffectSound(true);
+		allowEffectSoundCheckBox.addItemListener(new ItemListener() {
+			@Override
+			public void itemStateChanged(ItemEvent e) {
