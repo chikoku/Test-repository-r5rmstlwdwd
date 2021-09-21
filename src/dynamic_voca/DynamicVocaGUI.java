@@ -651,3 +651,6 @@ public class DynamicVocaGUI extends JFrame {
 		allowEffectSoundCheckBox.addItemListener(new ItemListener() {
 			@Override
 			public void itemStateChanged(ItemEvent e) {
+				if (e.getStateChange() == ItemEvent.SELECTED)
+					dynamicHandler.setAllowEffectSound(true);
+				else
