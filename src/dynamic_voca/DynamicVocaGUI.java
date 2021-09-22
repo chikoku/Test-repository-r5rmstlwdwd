@@ -667,3 +667,10 @@ public class DynamicVocaGUI extends JFrame {
 			testCollectionList.setListData(dynamicHandler.loadVocaSetsFileList());
 		add(testListScrollPane);
 	}
+
+	public void setLoadComponents() {
+		final int BUTTON_WIDTH = 173;
+		final int BUTTON_HEIGHT = 80;
+
+		selectLoadButton.setIcon(selectButtonImage);
+		selectLoadButton.setBackground(new Color(0, 0, 0, 0));
