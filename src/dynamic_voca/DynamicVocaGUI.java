@@ -654,3 +654,10 @@ public class DynamicVocaGUI extends JFrame {
 				if (e.getStateChange() == ItemEvent.SELECTED)
 					dynamicHandler.setAllowEffectSound(true);
 				else
+					dynamicHandler.setAllowEffectSound(false);
+			}
+
+		});
+		add(allowEffectSoundCheckBox);
+
+		testListScrollPane.setBounds(100, 150, 500, 470);
