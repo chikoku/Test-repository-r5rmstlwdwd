@@ -661,3 +661,9 @@ public class DynamicVocaGUI extends JFrame {
 		add(allowEffectSoundCheckBox);
 
 		testListScrollPane.setBounds(100, 150, 500, 470);
+		testCollectionList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		testCollectionList.setFont(new Font("basic", 0, 20));
+		if (dynamicHandler.loadVocaSetsFileList() != null)
+			testCollectionList.setListData(dynamicHandler.loadVocaSetsFileList());
+		add(testListScrollPane);
+	}
