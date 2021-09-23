@@ -674,3 +674,7 @@ public class DynamicVocaGUI extends JFrame {
 
 		selectLoadButton.setIcon(selectButtonImage);
 		selectLoadButton.setBackground(new Color(0, 0, 0, 0));
+		selectLoadButton.setBorderPainted(false);
+		selectLoadButton.setBounds(760, 420, BUTTON_WIDTH, BUTTON_HEIGHT);
+		selectLoadButton.addMouseListener(new MouseAdapter() {
+			@Override
