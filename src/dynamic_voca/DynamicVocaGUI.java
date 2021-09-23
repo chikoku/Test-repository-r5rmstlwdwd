@@ -678,3 +678,9 @@ public class DynamicVocaGUI extends JFrame {
 		selectLoadButton.setBounds(760, 420, BUTTON_WIDTH, BUTTON_HEIGHT);
 		selectLoadButton.addMouseListener(new MouseAdapter() {
 			@Override
+			public void mouseEntered(MouseEvent e) {
+				selectLoadButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				selectLoadButton.setIcon(selectEnteredButtonImage);
+				Sound EnteredButtonSound = new Sound("ButtonEnteredSound.mp3", false);
+				EnteredButtonSound.start();
+			}
