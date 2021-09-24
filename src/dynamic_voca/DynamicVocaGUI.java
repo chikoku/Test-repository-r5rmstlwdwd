@@ -701,3 +701,8 @@ public class DynamicVocaGUI extends JFrame {
 					dynamicHandler.loadQuestionList(dynamicHandler.getSelectedFileName());
 					dynamicHandler.setLimitTime(limitTimeComboBox.getSelectedIndex());
 					setLoadComponentsVisible(false);
+					setTestComponentsVisible(true);
+					JOptionPane.showMessageDialog(mComponent, "테스트를 시작합니까?", "확인", JOptionPane.INFORMATION_MESSAGE);
+					questionField.setText(dynamicHandler.getQuestion());
+					answerField.requestFocus();
+					situationArea.setText(dynamicHandler.testSituationInfo());
