@@ -695,3 +695,9 @@ public class DynamicVocaGUI extends JFrame {
 			public void mousePressed(MouseEvent e) {
 				try {
 					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
+					buttonPressedSound.start();
+					dynamicHandler.setSelectedFileName(loadCollectionList.getSelectedValue());
+					dynamicHandler.loadVocaSet(dynamicHandler.getSelectedFileName());
+					dynamicHandler.loadQuestionList(dynamicHandler.getSelectedFileName());
+					dynamicHandler.setLimitTime(limitTimeComboBox.getSelectedIndex());
+					setLoadComponentsVisible(false);
