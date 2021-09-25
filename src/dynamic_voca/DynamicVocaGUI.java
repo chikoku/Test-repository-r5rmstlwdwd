@@ -706,3 +706,7 @@ public class DynamicVocaGUI extends JFrame {
 					questionField.setText(dynamicHandler.getQuestion());
 					answerField.requestFocus();
 					situationArea.setText(dynamicHandler.testSituationInfo());
+					if (questionField.getText().equals("테스트 완료")) {
+						questionField.setForeground(Color.black);
+						answerField.setEditable(false);
+						questionField.requestFocus();
