@@ -710,3 +710,7 @@ public class DynamicVocaGUI extends JFrame {
 						questionField.setForeground(Color.black);
 						answerField.setEditable(false);
 						questionField.requestFocus();
+						return;
+					}
+					setQuestionFieldColor();
+					isTestEnd = false;
