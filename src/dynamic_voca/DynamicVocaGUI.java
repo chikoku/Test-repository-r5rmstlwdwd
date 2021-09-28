@@ -717,3 +717,9 @@ public class DynamicVocaGUI extends JFrame {
 					if (dynamicHandler.getLimitTime() != 0 && !questionField.getText().equals("테스트 완료")) {
 						showLimitTime = new LimitTimeThread();
 						showLimitTime.start();
+					}
+				} catch (InputException expn) {
+					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "경고", JOptionPane.WARNING_MESSAGE);
+				}
+			}
+		});
