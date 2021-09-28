@@ -730,3 +730,12 @@ public class DynamicVocaGUI extends JFrame {
 		retestLoadButton.setBorderPainted(false);
 		retestLoadButton.setBounds(980, 420, BUTTON_WIDTH, BUTTON_HEIGHT);
 		retestLoadButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				retestLoadButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				retestLoadButton.setIcon(retestEnteredButtonImage);
+				Sound EnteredButtonSound = new Sound("ButtonEnteredSound.mp3", false);
+				EnteredButtonSound.start();
+			}
+
+			@Override
