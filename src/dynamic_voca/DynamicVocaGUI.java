@@ -723,3 +723,10 @@ public class DynamicVocaGUI extends JFrame {
 				}
 			}
 		});
+		add(selectLoadButton);
+
+		retestLoadButton.setIcon(retestButtonImage);
+		retestLoadButton.setBackground(new Color(0, 0, 0, 0));
+		retestLoadButton.setBorderPainted(false);
+		retestLoadButton.setBounds(980, 420, BUTTON_WIDTH, BUTTON_HEIGHT);
+		retestLoadButton.addMouseListener(new MouseAdapter() {
