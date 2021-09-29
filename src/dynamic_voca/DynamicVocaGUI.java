@@ -747,3 +747,14 @@ public class DynamicVocaGUI extends JFrame {
 			@Override
 			public void mousePressed(MouseEvent e) {
 				try {
+					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
+					buttonPressedSound.start();
+					dynamicHandler.setSelectedFileName(loadCollectionList.getSelectedValue());
+					dynamicHandler.loadVocaSet(dynamicHandler.getSelectedFileName());
+					dynamicHandler.loadQuestionList(dynamicHandler.getSelectedFileName());
+					dynamicHandler.setQuestionListForRetest();
+					dynamicHandler.setLimitTime(limitTimeComboBox.getSelectedIndex());
+					setLoadComponentsVisible(false);
+					setTestComponentsVisible(true);
+					JOptionPane.showMessageDialog(mComponent, "테스트를 시작합니까?", "확인", JOptionPane.INFORMATION_MESSAGE);
+					questionField.setText(dynamicHandler.getQuestion());
