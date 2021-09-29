@@ -758,3 +758,11 @@ public class DynamicVocaGUI extends JFrame {
 					setTestComponentsVisible(true);
 					JOptionPane.showMessageDialog(mComponent, "테스트를 시작합니까?", "확인", JOptionPane.INFORMATION_MESSAGE);
 					questionField.setText(dynamicHandler.getQuestion());
+					answerField.requestFocus();
+					situationArea.setText(dynamicHandler.testSituationInfo());
+					if (questionField.getText().equals("테스트 완료")) {
+						questionField.setForeground(Color.black);
+						answerField.setEditable(false);
+						questionField.requestFocus();
+						return;
+					}
