@@ -745,3 +745,5 @@ public class DynamicVocaGUI extends JFrame {
 			}
 
 			@Override
+			public void mousePressed(MouseEvent e) {
+				try {
