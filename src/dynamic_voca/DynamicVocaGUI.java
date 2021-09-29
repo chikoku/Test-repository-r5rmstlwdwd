@@ -739,3 +739,9 @@ public class DynamicVocaGUI extends JFrame {
 			}
 
 			@Override
+			public void mouseExited(MouseEvent e) {
+				retestLoadButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+				retestLoadButton.setIcon(retestButtonImage);
+			}
+
+			@Override
