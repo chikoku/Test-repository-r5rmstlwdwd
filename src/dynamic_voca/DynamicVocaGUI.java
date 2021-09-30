@@ -766,3 +766,6 @@ public class DynamicVocaGUI extends JFrame {
 						questionField.requestFocus();
 						return;
 					}
+					setQuestionFieldColor();
+					isTestEnd = false;
+					if (dynamicHandler.getLimitTime() != 0 && !questionField.getText().equals("테스트 완료")) {
