@@ -780,3 +780,7 @@ public class DynamicVocaGUI extends JFrame {
 		add(retestLoadButton);
 
 		deleteLoadButton.setIcon(deleteButtonImage);
+		deleteLoadButton.setBackground(new Color(0, 0, 0, 0));
+		deleteLoadButton.setBorderPainted(false);
+		deleteLoadButton.setBounds(760, 540, BUTTON_WIDTH, BUTTON_HEIGHT);
+		deleteLoadButton.addMouseListener(new MouseAdapter() {
