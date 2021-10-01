@@ -773,3 +773,10 @@ public class DynamicVocaGUI extends JFrame {
 						showLimitTime.start();
 					}
 				} catch (InputException expn) {
+					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "°æ°í", JOptionPane.WARNING_MESSAGE);
+				}
+			}
+		});
+		add(retestLoadButton);
+
+		deleteLoadButton.setIcon(deleteButtonImage);
