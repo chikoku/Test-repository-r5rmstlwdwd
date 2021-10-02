@@ -784,3 +784,10 @@ public class DynamicVocaGUI extends JFrame {
 		deleteLoadButton.setBorderPainted(false);
 		deleteLoadButton.setBounds(760, 540, BUTTON_WIDTH, BUTTON_HEIGHT);
 		deleteLoadButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				deleteLoadButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				deleteLoadButton.setIcon(deleteEnteredButtonImage);
+				Sound EnteredButtonSound = new Sound("ButtonEnteredSound.mp3", false);
+				EnteredButtonSound.start();
+			}
