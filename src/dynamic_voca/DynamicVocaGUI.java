@@ -797,3 +797,7 @@ public class DynamicVocaGUI extends JFrame {
 				deleteLoadButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
 				deleteLoadButton.setIcon(deleteButtonImage);
 			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				try {
