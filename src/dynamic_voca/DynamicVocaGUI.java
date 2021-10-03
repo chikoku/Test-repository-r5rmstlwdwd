@@ -791,3 +791,9 @@ public class DynamicVocaGUI extends JFrame {
 				Sound EnteredButtonSound = new Sound("ButtonEnteredSound.mp3", false);
 				EnteredButtonSound.start();
 			}
+
+			@Override
+			public void mouseExited(MouseEvent e) {
+				deleteLoadButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+				deleteLoadButton.setIcon(deleteButtonImage);
+			}
