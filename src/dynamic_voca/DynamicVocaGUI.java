@@ -803,3 +803,8 @@ public class DynamicVocaGUI extends JFrame {
 				try {
 					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
 					buttonPressedSound.start();
+					dynamicHandler.deleteQuestionList(loadCollectionList.getSelectedValue());
+					loadCollectionList.setListData(dynamicHandler.loadQuestionListFileList());
+				} catch (InputException expn) {
+					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "°æ°í", JOptionPane.WARNING_MESSAGE);
+				}
