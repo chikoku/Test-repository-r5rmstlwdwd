@@ -812,3 +812,6 @@ public class DynamicVocaGUI extends JFrame {
 			}
 		});
 		add(deleteLoadButton);
+
+		cancelLoadButton.setIcon(backButtonImage);
+		cancelLoadButton.setBackground(new Color(0, 0, 0, 0));
