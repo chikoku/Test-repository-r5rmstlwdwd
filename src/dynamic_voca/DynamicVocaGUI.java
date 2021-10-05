@@ -808,3 +808,7 @@ public class DynamicVocaGUI extends JFrame {
 				} catch (InputException expn) {
 					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "°æ°í", JOptionPane.WARNING_MESSAGE);
 				}
+
+			}
+		});
+		add(deleteLoadButton);
