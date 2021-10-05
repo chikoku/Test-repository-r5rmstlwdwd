@@ -815,3 +815,7 @@ public class DynamicVocaGUI extends JFrame {
 
 		cancelLoadButton.setIcon(backButtonImage);
 		cancelLoadButton.setBackground(new Color(0, 0, 0, 0));
+		cancelLoadButton.setBorderPainted(false);
+		cancelLoadButton.setBounds(980, 540, BUTTON_WIDTH, BUTTON_HEIGHT);
+		cancelLoadButton.addMouseListener(new MouseAdapter() {
+			@Override
