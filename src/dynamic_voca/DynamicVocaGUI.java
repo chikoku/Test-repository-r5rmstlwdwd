@@ -819,3 +819,7 @@ public class DynamicVocaGUI extends JFrame {
 		cancelLoadButton.setBounds(980, 540, BUTTON_WIDTH, BUTTON_HEIGHT);
 		cancelLoadButton.addMouseListener(new MouseAdapter() {
 			@Override
+			public void mouseEntered(MouseEvent e) {
+				cancelLoadButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				cancelLoadButton.setIcon(backEnteredButtonImage);
+				Sound EnteredButtonSound = new Sound("ButtonEnteredSound.mp3", false);
