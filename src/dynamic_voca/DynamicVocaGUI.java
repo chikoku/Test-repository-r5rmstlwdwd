@@ -842,3 +842,6 @@ public class DynamicVocaGUI extends JFrame {
 			}
 		});
 		add(cancelLoadButton);
+
+		loadCollectionListLabel.setBounds(100, 100, 300, 50);
+		loadCollectionListLabel.setForeground(Color.black);
