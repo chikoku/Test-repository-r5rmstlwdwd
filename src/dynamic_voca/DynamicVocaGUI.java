@@ -845,3 +845,5 @@ public class DynamicVocaGUI extends JFrame {
 
 		loadCollectionListLabel.setBounds(100, 100, 300, 50);
 		loadCollectionListLabel.setForeground(Color.black);
+		loadCollectionListLabel.setFont(new Font("basic", 0, 24));
+		add(loadCollectionListLabel);
