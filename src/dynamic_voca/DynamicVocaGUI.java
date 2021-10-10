@@ -850,3 +850,11 @@ public class DynamicVocaGUI extends JFrame {
 
 		loadListScrollPane.setBounds(100, 150, 500, 470);
 		loadCollectionList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		loadCollectionList.setFont(new Font("basic", 0, 20));
+		if (dynamicHandler.loadQuestionListFileList() != null)
+			loadCollectionList.setListData(dynamicHandler.loadQuestionListFileList());
+		add(loadListScrollPane);
+	}
+
+	public void setAppendComponents() {
+		final int BUTTON_WIDTH = 173;
