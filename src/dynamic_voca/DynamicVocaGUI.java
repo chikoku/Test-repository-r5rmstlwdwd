@@ -858,3 +858,8 @@ public class DynamicVocaGUI extends JFrame {
 
 	public void setAppendComponents() {
 		final int BUTTON_WIDTH = 173;
+		final int BUTTON_HEIGHT = 80;
+
+		vocaApndButton.setIcon(appendButtonImage);
+		vocaApndButton.setBackground(new Color(0, 0, 0, 0));
+		vocaApndButton.setBorderPainted(false);
