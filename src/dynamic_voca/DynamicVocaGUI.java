@@ -863,3 +863,11 @@ public class DynamicVocaGUI extends JFrame {
 		vocaApndButton.setIcon(appendButtonImage);
 		vocaApndButton.setBackground(new Color(0, 0, 0, 0));
 		vocaApndButton.setBorderPainted(false);
+		vocaApndButton.setBounds(818, 550, BUTTON_WIDTH, BUTTON_HEIGHT);
+		vocaApndButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				vocaApndButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				vocaApndButton.setIcon(appendEnteredButtonImage);
+				Sound EnteredButtonSound = new Sound("ButtonEnteredSound.mp3", false);
+				EnteredButtonSound.start();
