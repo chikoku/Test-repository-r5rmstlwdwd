@@ -883,3 +883,7 @@ public class DynamicVocaGUI extends JFrame {
 			public void mousePressed(MouseEvent e) {
 				Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
 				buttonPressedSound.start();
+				String english = englishField.getText();
+				englishField.setText("");
+				Vector<String> koreans = new Vector<>(koreanFields.length);
+				for (int i = 0; i < koreanFields.length; i++) {
