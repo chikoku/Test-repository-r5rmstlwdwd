@@ -895,3 +895,9 @@ public class DynamicVocaGUI extends JFrame {
 			}
 		});
 		add(vocaApndButton);
+
+		apndQuitButton.setIcon(backButtonImage);
+		apndQuitButton.setBackground(new Color(0, 0, 0, 0));
+		apndQuitButton.setBorderPainted(false);
+		apndQuitButton.setBounds(1018, 550, BUTTON_WIDTH, BUTTON_HEIGHT);
+		apndQuitButton.addMouseListener(new MouseAdapter() {
