@@ -913,3 +913,6 @@ public class DynamicVocaGUI extends JFrame {
 			public void mouseExited(MouseEvent e) {
 				apndQuitButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
 				apndQuitButton.setIcon(backButtonImage);
+			}
+
+			@Override
