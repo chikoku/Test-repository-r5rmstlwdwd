@@ -923,3 +923,8 @@ public class DynamicVocaGUI extends JFrame {
 				setMenuComponentsVisible(true);
 				buttonPressedSound.start();
 				checkApndArea.setText("");
+				englishField.setText("");
+				for (int i = 0; i < koreanFields.length; i++)
+					koreanFields[i].setText("");
+				englishField.requestFocus();
+				InputContext inCtx = englishField.getInputContext();
