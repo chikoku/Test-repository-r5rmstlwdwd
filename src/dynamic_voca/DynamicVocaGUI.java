@@ -931,3 +931,8 @@ public class DynamicVocaGUI extends JFrame {
 				Character.Subset[] subset = null;
 				inCtx.setCharacterSubsets(subset);
 				dynamicHandler.saveVocaSet();
+			}
+		});
+		add(apndQuitButton);
+
+		englishLabel.setBounds(730, 150, 100, 50);
