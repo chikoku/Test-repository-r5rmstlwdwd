@@ -942,3 +942,8 @@ public class DynamicVocaGUI extends JFrame {
 
 		englishField.setBounds(830, 150, 350, 50);
 		englishField.setFont(new Font("basic", 0, 30));
+		englishField.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				koreanFields[0].requestFocus();
+			}
