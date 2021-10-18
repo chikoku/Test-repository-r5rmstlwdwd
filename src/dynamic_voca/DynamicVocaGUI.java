@@ -928,3 +928,6 @@ public class DynamicVocaGUI extends JFrame {
 					koreanFields[i].setText("");
 				englishField.requestFocus();
 				InputContext inCtx = englishField.getInputContext();
+				Character.Subset[] subset = null;
+				inCtx.setCharacterSubsets(subset);
+				dynamicHandler.saveVocaSet();
