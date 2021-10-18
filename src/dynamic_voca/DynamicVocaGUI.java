@@ -936,3 +936,9 @@ public class DynamicVocaGUI extends JFrame {
 		add(apndQuitButton);
 
 		englishLabel.setBounds(730, 150, 100, 50);
+		englishLabel.setForeground(Color.black);
+		englishLabel.setFont(new Font("basic", 0, 30));
+		add(englishLabel);
+
+		englishField.setBounds(830, 150, 350, 50);
+		englishField.setFont(new Font("basic", 0, 30));
