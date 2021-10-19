@@ -947,3 +947,10 @@ public class DynamicVocaGUI extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				koreanFields[0].requestFocus();
 			}
+		});
+
+		englishField.addFocusListener(new FocusListener() {
+			@Override
+			public void focusGained(FocusEvent e) {
+				InputContext inCtx = englishField.getInputContext();
+				Character.Subset[] subset = null;
