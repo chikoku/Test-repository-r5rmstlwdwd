@@ -954,3 +954,5 @@ public class DynamicVocaGUI extends JFrame {
 			public void focusGained(FocusEvent e) {
 				InputContext inCtx = englishField.getInputContext();
 				Character.Subset[] subset = null;
+				inCtx.setCharacterSubsets(subset);
+			}
