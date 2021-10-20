@@ -961,3 +961,8 @@ public class DynamicVocaGUI extends JFrame {
 			public void focusLost(FocusEvent e) {
 				InputContext inCtx = englishField.getInputContext();
 				Character.Subset[] subset = { Character.UnicodeBlock.HANGUL_SYLLABLES };
+				inCtx.setCharacterSubsets(subset);
+			}
+		});
+
+		add(englishField);
