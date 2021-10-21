@@ -966,3 +966,10 @@ public class DynamicVocaGUI extends JFrame {
 		});
 
 		add(englishField);
+
+		koreanLabel.setForeground(Color.black);
+		koreanLabel.setBounds(730, 250, 100, 50);
+		koreanLabel.setFont(new Font("basic", 0, 30));
+		add(koreanLabel);
+
+		for (int i = 0; i < koreanFields.length; i++) {
