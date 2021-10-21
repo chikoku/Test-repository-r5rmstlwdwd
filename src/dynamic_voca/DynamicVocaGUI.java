@@ -973,3 +973,4 @@ public class DynamicVocaGUI extends JFrame {
 		add(koreanLabel);
 
 		for (int i = 0; i < koreanFields.length; i++) {
+			koreanFields[i].setBounds(830, 250 + 100 * i, 350, 50);
