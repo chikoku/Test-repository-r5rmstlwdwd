@@ -978,3 +978,7 @@ public class DynamicVocaGUI extends JFrame {
 			koreanFields[i].addActionListener(new ActionListener() {
 				@Override
 				public void actionPerformed(ActionEvent e) {
+					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
+					buttonPressedSound.start();
+					String english = englishField.getText();
+					englishField.setText("");
