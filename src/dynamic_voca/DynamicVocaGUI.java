@@ -974,3 +974,7 @@ public class DynamicVocaGUI extends JFrame {
 
 		for (int i = 0; i < koreanFields.length; i++) {
 			koreanFields[i].setBounds(830, 250 + 100 * i, 350, 50);
+			koreanFields[i].setFont(new Font("basic", 0, 30));
+			koreanFields[i].addActionListener(new ActionListener() {
+				@Override
+				public void actionPerformed(ActionEvent e) {
