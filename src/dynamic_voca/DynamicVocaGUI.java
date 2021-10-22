@@ -982,3 +982,6 @@ public class DynamicVocaGUI extends JFrame {
 					buttonPressedSound.start();
 					String english = englishField.getText();
 					englishField.setText("");
+					Vector<String> koreans = new Vector<>(koreanFields.length);
+					for (int i = 0; i < koreanFields.length; i++) {
+						koreans.add(koreanFields[i].getText());
