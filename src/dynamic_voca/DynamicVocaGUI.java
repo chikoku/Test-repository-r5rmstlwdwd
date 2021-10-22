@@ -990,3 +990,6 @@ public class DynamicVocaGUI extends JFrame {
 					checkApndArea.append(dynamicHandler.appendVocaInfo(english, koreans));
 					englishField.requestFocus();
 				}
+			});
+			add(koreanFields[i]);
+		}
