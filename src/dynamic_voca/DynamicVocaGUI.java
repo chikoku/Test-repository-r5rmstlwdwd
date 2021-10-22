@@ -985,3 +985,8 @@ public class DynamicVocaGUI extends JFrame {
 					Vector<String> koreans = new Vector<>(koreanFields.length);
 					for (int i = 0; i < koreanFields.length; i++) {
 						koreans.add(koreanFields[i].getText());
+						koreanFields[i].setText("");
+					}
+					checkApndArea.append(dynamicHandler.appendVocaInfo(english, koreans));
+					englishField.requestFocus();
+				}
