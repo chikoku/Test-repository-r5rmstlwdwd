@@ -993,3 +993,7 @@ public class DynamicVocaGUI extends JFrame {
 			});
 			add(koreanFields[i]);
 		}
+
+		fileNameLabel.setBounds(100, 100, 500, 50);
+		fileNameLabel.setForeground(Color.black);
+		fileNameLabel.setFont(new Font("basic", 0, 24));
