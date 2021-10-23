@@ -1004,3 +1004,7 @@ public class DynamicVocaGUI extends JFrame {
 		checkApndArea.setWrapStyleWord(true);
 		checkApndArea.setFont(new Font("area", Font.BOLD, 16));
 		checkApndArea.setEditable(false);
+		add(apndAreaScrollPane);
+	}
+
+	public void setSelectForAppendComponents() {
