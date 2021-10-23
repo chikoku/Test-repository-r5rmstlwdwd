@@ -997,3 +997,10 @@ public class DynamicVocaGUI extends JFrame {
 		fileNameLabel.setBounds(100, 100, 500, 50);
 		fileNameLabel.setForeground(Color.black);
 		fileNameLabel.setFont(new Font("basic", 0, 24));
+		add(fileNameLabel);
+
+		apndAreaScrollPane.setBounds(100, 150, 500, 470);
+		checkApndArea.setLineWrap(true);
+		checkApndArea.setWrapStyleWord(true);
+		checkApndArea.setFont(new Font("area", Font.BOLD, 16));
+		checkApndArea.setEditable(false);
