@@ -1013,3 +1013,7 @@ public class DynamicVocaGUI extends JFrame {
 
 		createCollectionButton.setIcon(createButtonImage);
 		createCollectionButton.setBackground(new Color(0, 0, 0, 0));
+		createCollectionButton.setBorderPainted(false);
+		createCollectionButton.setBounds(760, 300, BUTTON_WIDTH, BUTTON_HEIGHT);
+		createCollectionButton.addMouseListener(new MouseAdapter() {
+			@Override
