@@ -1017,3 +1017,8 @@ public class DynamicVocaGUI extends JFrame {
 		createCollectionButton.setBounds(760, 300, BUTTON_WIDTH, BUTTON_HEIGHT);
 		createCollectionButton.addMouseListener(new MouseAdapter() {
 			@Override
+			public void mouseEntered(MouseEvent e) {
+				createCollectionButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				createCollectionButton.setIcon(createEnteredButtonImage);
+				Sound EnteredButtonSound = new Sound("ButtonEnteredSound.mp3", false);
+				EnteredButtonSound.start();
