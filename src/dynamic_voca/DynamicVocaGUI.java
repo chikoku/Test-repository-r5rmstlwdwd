@@ -1029,3 +1029,8 @@ public class DynamicVocaGUI extends JFrame {
 				createCollectionButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
 				createCollectionButton.setIcon(createButtonImage);
 			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				try {
+					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
