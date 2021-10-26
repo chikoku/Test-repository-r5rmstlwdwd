@@ -1034,3 +1034,5 @@ public class DynamicVocaGUI extends JFrame {
 			public void mousePressed(MouseEvent e) {
 				try {
 					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
+					String createFileName = newCollectionNameField.getText();
+					buttonPressedSound.start();
