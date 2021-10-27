@@ -1041,3 +1041,12 @@ public class DynamicVocaGUI extends JFrame {
 					collectionList.setListData(dynamicHandler.loadVocaSetsFileList());
 					testCollectionList.setListData(dynamicHandler.loadVocaSetsFileList());
 				} catch (InputException expn) {
+					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "°æ°í", JOptionPane.WARNING_MESSAGE);
+				}
+			}
+		});
+		add(createCollectionButton);
+
+		selectCollectionButton.setIcon(selectButtonImage);
+		selectCollectionButton.setBackground(new Color(0, 0, 0, 0));
+		selectCollectionButton.setBorderPainted(false);
