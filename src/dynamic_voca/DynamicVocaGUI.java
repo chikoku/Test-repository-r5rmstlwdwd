@@ -1050,3 +1050,8 @@ public class DynamicVocaGUI extends JFrame {
 		selectCollectionButton.setIcon(selectButtonImage);
 		selectCollectionButton.setBackground(new Color(0, 0, 0, 0));
 		selectCollectionButton.setBorderPainted(false);
+		selectCollectionButton.setBounds(980, 300, BUTTON_WIDTH, BUTTON_HEIGHT);
+		selectCollectionButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				selectCollectionButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
