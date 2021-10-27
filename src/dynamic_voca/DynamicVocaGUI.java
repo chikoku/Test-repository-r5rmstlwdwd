@@ -1036,3 +1036,8 @@ public class DynamicVocaGUI extends JFrame {
 					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
 					String createFileName = newCollectionNameField.getText();
 					buttonPressedSound.start();
+					newCollectionNameField.setText("");
+					dynamicHandler.createVocaCollection(createFileName);
+					collectionList.setListData(dynamicHandler.loadVocaSetsFileList());
+					testCollectionList.setListData(dynamicHandler.loadVocaSetsFileList());
+				} catch (InputException expn) {
