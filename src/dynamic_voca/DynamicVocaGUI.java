@@ -1061,3 +1061,19 @@ public class DynamicVocaGUI extends JFrame {
 			}
 
 			@Override
+			public void mouseExited(MouseEvent e) {
+				selectCollectionButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+				selectCollectionButton.setIcon(selectButtonImage);
+			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				try {
+					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
+					buttonPressedSound.start();
+					dynamicHandler.setSelectedFileName(collectionList.getSelectedValue());
+					String selectedFileName = dynamicHandler.getSelectedFileName();
+					fileNameLabel.setText("ÆÄÀÏ¸í : " + selectedFileName);
+					setSelectForAppendComponentsVisible(false);
+					setAppendComponentsVisible(true);
+					dynamicHandler.loadVocaSet(selectedFileName);
