@@ -1077,3 +1077,8 @@ public class DynamicVocaGUI extends JFrame {
 					setSelectForAppendComponentsVisible(false);
 					setAppendComponentsVisible(true);
 					dynamicHandler.loadVocaSet(selectedFileName);
+					englishField.requestFocus();
+				} catch (InputException expn) {
+					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "°æ°í", JOptionPane.WARNING_MESSAGE);
+				}
+			}
