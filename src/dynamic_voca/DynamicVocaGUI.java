@@ -1082,3 +1082,8 @@ public class DynamicVocaGUI extends JFrame {
 					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "°æ°í", JOptionPane.WARNING_MESSAGE);
 				}
 			}
+		});
+
+		add(selectCollectionButton);
+
+		deleteCollectionButton.setIcon(deleteButtonImage);
