@@ -1087,3 +1087,7 @@ public class DynamicVocaGUI extends JFrame {
 		add(selectCollectionButton);
 
 		deleteCollectionButton.setIcon(deleteButtonImage);
+		deleteCollectionButton.setBackground(new Color(0, 0, 0, 0));
+		deleteCollectionButton.setBorderPainted(false);
+		deleteCollectionButton.setBounds(760, 420, BUTTON_WIDTH, BUTTON_HEIGHT);
+		deleteCollectionButton.addMouseListener(new MouseAdapter() {
