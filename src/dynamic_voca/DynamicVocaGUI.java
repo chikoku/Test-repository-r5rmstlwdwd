@@ -1109,3 +1109,6 @@ public class DynamicVocaGUI extends JFrame {
 			public void mousePressed(MouseEvent e) {
 				try {
 					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
+					buttonPressedSound.start();
+					dynamicHandler.deleteVocaCollection(collectionList.getSelectedValue());
+					dynamicHandler.deleteQusetionListOfVocaSet(collectionList.getSelectedValue());
