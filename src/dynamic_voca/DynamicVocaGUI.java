@@ -1121,3 +1121,5 @@ public class DynamicVocaGUI extends JFrame {
 			}
 		});
 		add(deleteCollectionButton);
+
+		cancelCollectionButton.setIcon(backButtonImage);
