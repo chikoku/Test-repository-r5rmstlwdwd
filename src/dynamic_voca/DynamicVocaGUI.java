@@ -1117,3 +1117,7 @@ public class DynamicVocaGUI extends JFrame {
 					loadCollectionList.setListData(dynamicHandler.loadQuestionListFileList());
 				} catch (InputException expn) {
 					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "°æ°í", JOptionPane.WARNING_MESSAGE);
+				}
+			}
+		});
+		add(deleteCollectionButton);
