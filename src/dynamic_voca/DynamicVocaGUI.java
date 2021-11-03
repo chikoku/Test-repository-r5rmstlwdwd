@@ -1146,3 +1146,9 @@ public class DynamicVocaGUI extends JFrame {
 				Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
 				background = mainBackgroundImage.getImage();
 				setSelectForAppendComponentsVisible(false);
+				setMenuComponentsVisible(true);
+				buttonPressedSound.start();
+				newCollectionNameField.setText("");
+			}
+		});
+		add(cancelCollectionButton);
