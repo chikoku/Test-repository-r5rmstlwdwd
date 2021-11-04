@@ -1152,3 +1152,12 @@ public class DynamicVocaGUI extends JFrame {
 			}
 		});
 		add(cancelCollectionButton);
+
+		collectionListLabel.setBounds(100, 100, 300, 50);
+		collectionListLabel.setForeground(Color.black);
+		collectionListLabel.setFont(new Font("basic", 0, 24));
+		add(collectionListLabel);
+
+		newCollectionNameLabel.setBounds(730, 100, 300, 50);
+		newCollectionNameLabel.setForeground(Color.black);
+		newCollectionNameLabel.setFont(new Font("basic", 0, 24));
