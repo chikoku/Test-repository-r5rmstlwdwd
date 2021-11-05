@@ -1162,3 +1162,12 @@ public class DynamicVocaGUI extends JFrame {
 		newCollectionNameLabel.setForeground(Color.black);
 		newCollectionNameLabel.setFont(new Font("basic", 0, 24));
 		add(newCollectionNameLabel);
+
+		listScrollPane.setBounds(100, 150, 500, 470);
+		collectionList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		collectionList.setFont(new Font("basic", 0, 20));
+		if (dynamicHandler.loadVocaSetsFileList() != null)
+			collectionList.setListData(dynamicHandler.loadVocaSetsFileList());
+		add(listScrollPane);
+
+		newCollectionNameField.setBounds(730, 150, 450, 50);
