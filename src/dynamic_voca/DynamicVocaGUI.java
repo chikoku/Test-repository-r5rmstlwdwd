@@ -1171,3 +1171,7 @@ public class DynamicVocaGUI extends JFrame {
 		add(listScrollPane);
 
 		newCollectionNameField.setBounds(730, 150, 450, 50);
+		newCollectionNameField.setFont(new Font("basic", 0, 30));
+		add(newCollectionNameField);
+
+	}
