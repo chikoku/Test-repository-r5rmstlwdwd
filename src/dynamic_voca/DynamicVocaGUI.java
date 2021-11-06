@@ -1181,3 +1181,6 @@ public class DynamicVocaGUI extends JFrame {
 		final int BUTTON_HEIGHT = 80;
 
 		searchButton.setIcon(searchButtonImage);
+		searchButton.setBackground(new Color(0, 0, 0, 0));
+		searchButton.setBorderPainted(false);
+		searchButton.setBounds(760, 300, BUTTON_WIDTH, BUTTON_HEIGHT);
