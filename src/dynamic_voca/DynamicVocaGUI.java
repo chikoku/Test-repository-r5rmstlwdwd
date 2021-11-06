@@ -1184,3 +1184,8 @@ public class DynamicVocaGUI extends JFrame {
 		searchButton.setBackground(new Color(0, 0, 0, 0));
 		searchButton.setBorderPainted(false);
 		searchButton.setBounds(760, 300, BUTTON_WIDTH, BUTTON_HEIGHT);
+		searchButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				searchButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				searchButton.setIcon(searchEnteredButtonImage);
