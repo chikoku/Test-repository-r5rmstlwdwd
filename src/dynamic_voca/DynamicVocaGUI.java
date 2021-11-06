@@ -1175,3 +1175,6 @@ public class DynamicVocaGUI extends JFrame {
 		add(newCollectionNameField);
 
 	}
+
+	public void setSearchComponents() {
+		final int BUTTON_WIDTH = 173;
