@@ -1178,3 +1178,6 @@ public class DynamicVocaGUI extends JFrame {
 
 	public void setSearchComponents() {
 		final int BUTTON_WIDTH = 173;
+		final int BUTTON_HEIGHT = 80;
+
+		searchButton.setIcon(searchButtonImage);
