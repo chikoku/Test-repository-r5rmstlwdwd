@@ -1189,3 +1189,8 @@ public class DynamicVocaGUI extends JFrame {
 			public void mouseEntered(MouseEvent e) {
 				searchButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
 				searchButton.setIcon(searchEnteredButtonImage);
+				Sound EnteredButtonSound = new Sound("ButtonEnteredSound.mp3", false);
+				EnteredButtonSound.start();
+			}
+
+			@Override
