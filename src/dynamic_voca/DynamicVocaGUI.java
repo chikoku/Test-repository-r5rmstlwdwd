@@ -1207,3 +1207,9 @@ public class DynamicVocaGUI extends JFrame {
 					searchResultArea.append(dynamicHandler.searchVocaInfoInAllFile(inputField.getText()));
 				} catch (InputException expn) {
 					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "°æ°í", JOptionPane.WARNING_MESSAGE);
+				}
+				inputField.setText("");
+				inputField.requestFocus();
+			}
+		});
+		add(searchButton);
