@@ -1213,3 +1213,8 @@ public class DynamicVocaGUI extends JFrame {
 			}
 		});
 		add(searchButton);
+
+		showTotalButton.setIcon(showTotalButtonImage);
+		showTotalButton.setBackground(new Color(0, 0, 0, 0));
+		showTotalButton.setBorderPainted(false);
+		showTotalButton.setBounds(980, 300, BUTTON_WIDTH, BUTTON_HEIGHT);
