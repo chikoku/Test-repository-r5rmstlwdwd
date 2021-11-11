@@ -1232,3 +1232,11 @@ public class DynamicVocaGUI extends JFrame {
 				showTotalButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
 				showTotalButton.setIcon(showTotalButtonImage);
 			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				try {
+					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
+					buttonPressedSound.start();
+					dynamicHandler.checkInputException(inputField.getText());
+					String mistakeCnt = (String) JOptionPane.showInputDialog(mComponent, "입력하는 오답 수 이상의 단어들을 출력합니다.",
