@@ -1229,3 +1229,6 @@ public class DynamicVocaGUI extends JFrame {
 
 			@Override
 			public void mouseExited(MouseEvent e) {
+				showTotalButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+				showTotalButton.setIcon(showTotalButtonImage);
+			}
