@@ -1240,3 +1240,8 @@ public class DynamicVocaGUI extends JFrame {
 					buttonPressedSound.start();
 					dynamicHandler.checkInputException(inputField.getText());
 					String mistakeCnt = (String) JOptionPane.showInputDialog(mComponent, "입력하는 오답 수 이상의 단어들을 출력합니다.",
+							"오답 수 입력", JOptionPane.PLAIN_MESSAGE, null, null, null);
+					dynamicHandler.setMistakeCntForShow(mistakeCnt);
+					searchResultArea.append(dynamicHandler.showTotalVocaByFile(inputField.getText()));
+				} catch (InputException expn) {
+					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "경고", JOptionPane.WARNING_MESSAGE);
