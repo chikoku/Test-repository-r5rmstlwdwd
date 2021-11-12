@@ -1253,3 +1253,8 @@ public class DynamicVocaGUI extends JFrame {
 		add(showTotalButton);
 
 		deleteButton.setIcon(deleteButtonImage);
+		deleteButton.setBackground(new Color(0, 0, 0, 0));
+		deleteButton.setBorderPainted(false);
+		deleteButton.setBounds(760, 420, BUTTON_WIDTH, BUTTON_HEIGHT);
+		deleteButton.addMouseListener(new MouseAdapter() {
+			@Override
