@@ -1258,3 +1258,6 @@ public class DynamicVocaGUI extends JFrame {
 		deleteButton.setBounds(760, 420, BUTTON_WIDTH, BUTTON_HEIGHT);
 		deleteButton.addMouseListener(new MouseAdapter() {
 			@Override
+			public void mouseEntered(MouseEvent e) {
+				deleteButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				deleteButton.setIcon(deleteEnteredButtonImage);
