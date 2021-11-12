@@ -1250,3 +1250,6 @@ public class DynamicVocaGUI extends JFrame {
 				inputField.requestFocus();
 			}
 		});
+		add(showTotalButton);
+
+		deleteButton.setIcon(deleteButtonImage);
