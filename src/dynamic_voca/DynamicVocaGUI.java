@@ -1280,3 +1280,7 @@ public class DynamicVocaGUI extends JFrame {
 							"파일이름 입력", JOptionPane.PLAIN_MESSAGE, null, null, null);
 					searchResultArea.append(dynamicHandler.deleteVocaInfoByFileName(inputField.getText(), fileName));
 					loadCollectionList.setListData(dynamicHandler.loadQuestionListFileList());
+				} catch (InputException expn) {
+					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "경고", JOptionPane.WARNING_MESSAGE);
+				}
+				inputField.setText("");
