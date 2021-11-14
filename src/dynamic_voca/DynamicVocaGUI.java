@@ -1275,3 +1275,8 @@ public class DynamicVocaGUI extends JFrame {
 			public void mousePressed(MouseEvent e) {
 				try {
 					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
+					buttonPressedSound.start();
+					String fileName = (String) JOptionPane.showInputDialog(mComponent, "삭제할 단어가 있는 파일이름을 입력하세요.",
+							"파일이름 입력", JOptionPane.PLAIN_MESSAGE, null, null, null);
+					searchResultArea.append(dynamicHandler.deleteVocaInfoByFileName(inputField.getText(), fileName));
+					loadCollectionList.setListData(dynamicHandler.loadQuestionListFileList());
