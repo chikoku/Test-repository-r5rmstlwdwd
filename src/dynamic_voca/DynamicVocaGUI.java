@@ -1294,3 +1294,10 @@ public class DynamicVocaGUI extends JFrame {
 		searchQuitButton.setBorderPainted(false);
 		searchQuitButton.setBounds(980, 420, BUTTON_WIDTH, BUTTON_HEIGHT);
 		searchQuitButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				searchQuitButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				searchQuitButton.setIcon(backEnteredButtonImage);
+				Sound EnteredButtonSound = new Sound("ButtonEnteredSound.mp3", false);
+				EnteredButtonSound.start();
+			}
