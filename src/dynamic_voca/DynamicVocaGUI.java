@@ -1305,3 +1305,7 @@ public class DynamicVocaGUI extends JFrame {
 			@Override
 			public void mouseExited(MouseEvent e) {
 				searchQuitButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+				searchQuitButton.setIcon(backButtonImage);
+			}
+
+			@Override
