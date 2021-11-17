@@ -1317,3 +1317,6 @@ public class DynamicVocaGUI extends JFrame {
 				setMenuComponentsVisible(true);
 				inputField.setText("");
 				searchResultArea.setText("");
+			}
+		});
+		add(searchQuitButton);
