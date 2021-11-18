@@ -1325,3 +1325,11 @@ public class DynamicVocaGUI extends JFrame {
 		initMisCntButton.setBackground(new Color(0, 0, 0, 0));
 		initMisCntButton.setBorderPainted(false);
 		initMisCntButton.setBounds(760, 540, BUTTON_WIDTH, BUTTON_HEIGHT);
+		initMisCntButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				initMisCntButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				initMisCntButton.setIcon(initializeEnteredButtonImage);
+				Sound EnteredButtonSound = new Sound("ButtonEnteredSound.mp3", false);
+				EnteredButtonSound.start();
+			}
