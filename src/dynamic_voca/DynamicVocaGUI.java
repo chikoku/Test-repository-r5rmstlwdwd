@@ -1320,3 +1320,8 @@ public class DynamicVocaGUI extends JFrame {
 			}
 		});
 		add(searchQuitButton);
+
+		initMisCntButton.setIcon(initializeButtonImage);
+		initMisCntButton.setBackground(new Color(0, 0, 0, 0));
+		initMisCntButton.setBorderPainted(false);
+		initMisCntButton.setBounds(760, 540, BUTTON_WIDTH, BUTTON_HEIGHT);
