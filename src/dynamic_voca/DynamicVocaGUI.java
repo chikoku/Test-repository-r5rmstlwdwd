@@ -1355,3 +1355,6 @@ public class DynamicVocaGUI extends JFrame {
 			}
 		});
 		add(initMisCntButton);
+
+		inputField.setBounds(780, 150, 350, 50);
+		inputField.setFont(new Font("basic", 0, 30));
