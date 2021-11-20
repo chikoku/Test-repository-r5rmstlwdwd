@@ -1352,3 +1352,6 @@ public class DynamicVocaGUI extends JFrame {
 				}
 				inputField.setText("");
 				inputField.requestFocus();
+			}
+		});
+		add(initMisCntButton);
