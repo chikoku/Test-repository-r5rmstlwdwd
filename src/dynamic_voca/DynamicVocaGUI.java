@@ -1358,3 +1358,5 @@ public class DynamicVocaGUI extends JFrame {
 
 		inputField.setBounds(780, 150, 350, 50);
 		inputField.setFont(new Font("basic", 0, 30));
+		inputField.addActionListener(new ActionListener() {
+			@Override
