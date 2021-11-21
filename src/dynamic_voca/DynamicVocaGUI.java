@@ -1376,3 +1376,8 @@ public class DynamicVocaGUI extends JFrame {
 
 		infoLabel.setBounds(100, 100, 300, 50);
 		infoLabel.setFont(new Font("basic", Font.BOLD, 30));
+		add(infoLabel);
+
+		searchAreaScrollPane.setBounds(100, 150, 500, 470);
+		searchResultArea.setLineWrap(true);
+		searchResultArea.setWrapStyleWord(true);
