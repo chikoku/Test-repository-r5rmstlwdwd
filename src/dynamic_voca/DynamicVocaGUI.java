@@ -1373,3 +1373,6 @@ public class DynamicVocaGUI extends JFrame {
 			}
 		});
 		add(inputField);
+
+		infoLabel.setBounds(100, 100, 300, 50);
+		infoLabel.setFont(new Font("basic", Font.BOLD, 30));
