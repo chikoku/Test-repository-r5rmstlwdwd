@@ -1360,3 +1360,8 @@ public class DynamicVocaGUI extends JFrame {
 		inputField.setFont(new Font("basic", 0, 30));
 		inputField.addActionListener(new ActionListener() {
 			@Override
+			public void actionPerformed(ActionEvent e) {
+				try {
+					searchResultArea.append(dynamicHandler.searchVocaInfoInAllFile(inputField.getText()));
+					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
+					buttonPressedSound.start();
