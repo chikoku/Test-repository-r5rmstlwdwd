@@ -1365,3 +1365,11 @@ public class DynamicVocaGUI extends JFrame {
 					searchResultArea.append(dynamicHandler.searchVocaInfoInAllFile(inputField.getText()));
 					Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
 					buttonPressedSound.start();
+				} catch (InputException expn) {
+					JOptionPane.showMessageDialog(mComponent, expn.getMessage(), "°æ°í", JOptionPane.WARNING_MESSAGE);
+				}
+				inputField.setText("");
+				inputField.requestFocus();
+			}
+		});
+		add(inputField);
