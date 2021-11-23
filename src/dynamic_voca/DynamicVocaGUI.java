@@ -1385,3 +1385,8 @@ public class DynamicVocaGUI extends JFrame {
 		searchResultArea.setEditable(false);
 		add(searchAreaScrollPane);
 	}
+
+	public void setInformationComponents() {
+		developInfoArea.setBounds(100, 250, 800, 300);
+		developInfoArea.setFont(new Font("area", Font.PLAIN, 30));
+		developInfoArea.setForeground(Color.DARK_GRAY);
