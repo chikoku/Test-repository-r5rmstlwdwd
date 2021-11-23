@@ -1390,3 +1390,9 @@ public class DynamicVocaGUI extends JFrame {
 		developInfoArea.setBounds(100, 250, 800, 300);
 		developInfoArea.setFont(new Font("area", Font.PLAIN, 30));
 		developInfoArea.setForeground(Color.DARK_GRAY);
+		developInfoArea.setBackground(new Color(0, 0, 0, 0));
+		developInfoArea.setEditable(false);
+		developInfoArea.setText(dynamicHandler.getDevelopInformation());
+		add(developInfoArea);
+
+		infoQuitButton.setIcon(backButtonImage);
