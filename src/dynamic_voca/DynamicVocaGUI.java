@@ -1410,3 +1410,10 @@ public class DynamicVocaGUI extends JFrame {
 
 			@Override
 			public void mouseExited(MouseEvent e) {
+				infoQuitButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+				infoQuitButton.setIcon(backButtonImage);
+			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				Sound buttonPressedSound = new Sound("buttonPressedSound.mp3", false);
