@@ -1423,3 +1423,5 @@ public class DynamicVocaGUI extends JFrame {
 				setMenuComponentsVisible(true);
 			}
 		});
+		add(infoQuitButton);
+	}
