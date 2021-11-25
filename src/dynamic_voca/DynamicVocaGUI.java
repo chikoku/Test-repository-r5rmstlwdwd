@@ -1425,3 +1425,9 @@ public class DynamicVocaGUI extends JFrame {
 		});
 		add(infoQuitButton);
 	}
+
+	public void setMenuComponentsVisible(boolean visible) {
+		testMenuButton.setVisible(visible);
+		loadMenuButton.setVisible(visible);
+		apndMenuButton.setVisible(visible);
+		searchMenuButton.setVisible(visible);
