@@ -1431,3 +1431,13 @@ public class DynamicVocaGUI extends JFrame {
 		loadMenuButton.setVisible(visible);
 		apndMenuButton.setVisible(visible);
 		searchMenuButton.setVisible(visible);
+		infoMenuButton.setVisible(visible);
+		quitMenuButton.setVisible(visible);
+	}
+
+	public void setTestComponentsVisible(boolean visible) {
+		limitTimeLabel.setVisible(visible);
+		questionLabel.setVisible(visible);
+		questionField.setVisible(visible);
+		answerField.setVisible(visible);
+		situationArea.setVisible(visible);
