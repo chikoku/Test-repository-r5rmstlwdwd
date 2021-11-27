@@ -1441,3 +1441,6 @@ public class DynamicVocaGUI extends JFrame {
 		questionField.setVisible(visible);
 		answerField.setVisible(visible);
 		situationArea.setVisible(visible);
+		testInfoArea.setVisible(visible);
+		testInfoLabel.setVisible(visible);
+		testInfoScrollPane.setVisible(visible);
