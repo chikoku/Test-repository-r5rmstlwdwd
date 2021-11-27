@@ -1447,3 +1447,9 @@ public class DynamicVocaGUI extends JFrame {
 		saveButton.setVisible(visible);
 		quitTestButton.setVisible(visible);
 	}
+
+	public void setSelectForTestComponentsVisible(boolean visible) {
+		testCollectionListLabel.setVisible(visible);
+		testCollectionList.setVisible(visible);
+		testListScrollPane.setVisible(visible);
+		limitTimeComboBox.setVisible(visible);
