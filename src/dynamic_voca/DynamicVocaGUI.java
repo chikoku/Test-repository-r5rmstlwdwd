@@ -1459,3 +1459,7 @@ public class DynamicVocaGUI extends JFrame {
 		cancelTestButton.setVisible(visible);
 		selectlimitTimeLabel.setVisible(visible);
 	}
+
+	public void setLoadComponentsVisible(boolean visible) {
+		loadCollectionListLabel.setVisible(visible);
+		loadCollectionList.setVisible(visible);
