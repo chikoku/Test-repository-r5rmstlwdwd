@@ -1473,3 +1473,10 @@ public class DynamicVocaGUI extends JFrame {
 		retestLoadButton.setVisible(visible);
 		selectlimitTimeLabel.setVisible(visible);
 	}
+
+	public void setAppendComponentsVisible(boolean visible) {
+		vocaApndButton.setVisible(visible);
+		apndQuitButton.setVisible(visible);
+		englishLabel.setVisible(visible);
+		englishField.setVisible(visible);
+		koreanLabel.setVisible(visible);
