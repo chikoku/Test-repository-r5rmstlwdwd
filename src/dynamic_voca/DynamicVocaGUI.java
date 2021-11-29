@@ -1465,3 +1465,11 @@ public class DynamicVocaGUI extends JFrame {
 		loadCollectionList.setVisible(visible);
 		loadListScrollPane.setVisible(visible);
 		limitTimeComboBox.setVisible(visible);
+		allowColorByMistakeCntCheckBox.setVisible(visible);
+		allowEffectSoundCheckBox.setVisible(visible);
+		selectLoadButton.setVisible(visible);
+		cancelLoadButton.setVisible(visible);
+		deleteLoadButton.setVisible(visible);
+		retestLoadButton.setVisible(visible);
+		selectlimitTimeLabel.setVisible(visible);
+	}
