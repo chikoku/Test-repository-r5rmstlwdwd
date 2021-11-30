@@ -1480,3 +1480,6 @@ public class DynamicVocaGUI extends JFrame {
 		englishLabel.setVisible(visible);
 		englishField.setVisible(visible);
 		koreanLabel.setVisible(visible);
+		fileNameLabel.setVisible(visible);
+		apndAreaScrollPane.setVisible(visible);
+		for (int i = 0; i < koreanFields.length; i++) {
