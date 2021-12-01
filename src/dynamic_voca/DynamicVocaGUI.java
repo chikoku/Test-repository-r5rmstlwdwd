@@ -1483,3 +1483,8 @@ public class DynamicVocaGUI extends JFrame {
 		fileNameLabel.setVisible(visible);
 		apndAreaScrollPane.setVisible(visible);
 		for (int i = 0; i < koreanFields.length; i++) {
+			if (koreanFields[i] == null)
+				koreanFields[i] = new JTextField();
+			koreanFields[i].setVisible(visible);
+		}
+	}
