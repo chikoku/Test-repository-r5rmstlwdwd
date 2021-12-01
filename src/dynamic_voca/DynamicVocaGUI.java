@@ -1488,3 +1488,10 @@ public class DynamicVocaGUI extends JFrame {
 			koreanFields[i].setVisible(visible);
 		}
 	}
+
+	public void setSelectForAppendComponentsVisible(boolean visible) {
+		collectionListLabel.setVisible(visible);
+		listScrollPane.setVisible(visible);
+		newCollectionNameLabel.setVisible(visible);
+		newCollectionNameField.setVisible(visible);
+		createCollectionButton.setVisible(visible);
