@@ -1495,3 +1495,7 @@ public class DynamicVocaGUI extends JFrame {
 		newCollectionNameLabel.setVisible(visible);
 		newCollectionNameField.setVisible(visible);
 		createCollectionButton.setVisible(visible);
+		selectCollectionButton.setVisible(visible);
+		deleteCollectionButton.setVisible(visible);
+		cancelCollectionButton.setVisible(visible);
+	}
