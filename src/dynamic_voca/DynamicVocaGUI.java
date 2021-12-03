@@ -1499,3 +1499,10 @@ public class DynamicVocaGUI extends JFrame {
 		deleteCollectionButton.setVisible(visible);
 		cancelCollectionButton.setVisible(visible);
 	}
+
+	public void setSearchComponentsVisible(boolean visible) {
+		inputField.setVisible(visible);
+		infoLabel.setVisible(visible);
+		searchResultArea.setVisible(visible);
+		searchAreaScrollPane.setVisible(visible);
+		searchButton.setVisible(visible);
