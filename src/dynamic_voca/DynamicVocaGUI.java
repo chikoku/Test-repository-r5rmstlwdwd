@@ -1515,3 +1515,10 @@ public class DynamicVocaGUI extends JFrame {
 	public void setInformationComponentsVisible(boolean visible) {
 		developInfoArea.setVisible(visible);
 		infoQuitButton.setVisible(visible);
+	}
+
+	public void setQuestionFieldColor() {
+		final int TEXTCOLOR_GREEN = 1;
+		final int TEXTCOLOR_CYAN = 2;
+		final int TEXTCOLOR_BLUE = 3;
+		final int TEXTCOLOR_YELLOW = 4;
