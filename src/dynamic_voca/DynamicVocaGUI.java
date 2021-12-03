@@ -1506,3 +1506,6 @@ public class DynamicVocaGUI extends JFrame {
 		searchResultArea.setVisible(visible);
 		searchAreaScrollPane.setVisible(visible);
 		searchButton.setVisible(visible);
+		deleteButton.setVisible(visible);
+		searchQuitButton.setVisible(visible);
+		showTotalButton.setVisible(visible);
