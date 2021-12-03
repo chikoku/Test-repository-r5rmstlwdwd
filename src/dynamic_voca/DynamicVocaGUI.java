@@ -1509,3 +1509,9 @@ public class DynamicVocaGUI extends JFrame {
 		deleteButton.setVisible(visible);
 		searchQuitButton.setVisible(visible);
 		showTotalButton.setVisible(visible);
+		initMisCntButton.setVisible(visible);
+	}
+
+	public void setInformationComponentsVisible(boolean visible) {
+		developInfoArea.setVisible(visible);
+		infoQuitButton.setVisible(visible);
