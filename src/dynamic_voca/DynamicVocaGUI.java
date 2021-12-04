@@ -1532,3 +1532,6 @@ public class DynamicVocaGUI extends JFrame {
 			break;
 		case TEXTCOLOR_CYAN:
 			questionField.setForeground(Color.cyan);
+			break;
+		case TEXTCOLOR_BLUE:
+			questionField.setForeground(Color.blue);
