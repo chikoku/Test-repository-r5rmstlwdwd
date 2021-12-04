@@ -1522,3 +1522,13 @@ public class DynamicVocaGUI extends JFrame {
 		final int TEXTCOLOR_CYAN = 2;
 		final int TEXTCOLOR_BLUE = 3;
 		final int TEXTCOLOR_YELLOW = 4;
+		final int TEXTCOLOR_MAGENTA = 5;
+		final int TEXTCOLOR_RED = 6;
+
+		situationArea.setText(dynamicHandler.testSituationInfo());
+		switch (dynamicHandler.getQuestionTextColorByMistakeCnt()) {
+		case TEXTCOLOR_GREEN:
+			questionField.setForeground(Color.green);
+			break;
+		case TEXTCOLOR_CYAN:
+			questionField.setForeground(Color.cyan);
