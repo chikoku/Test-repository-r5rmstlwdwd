@@ -1563,3 +1563,6 @@ public class DynamicVocaGUI extends JFrame {
 			}
 
 			@Override
+			public void mouseExited(MouseEvent e) {
+				quitButton.setIcon(quitButtonImage);
+				quitButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
