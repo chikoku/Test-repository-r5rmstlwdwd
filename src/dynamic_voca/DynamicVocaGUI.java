@@ -1549,3 +1549,10 @@ public class DynamicVocaGUI extends JFrame {
 			questionField.setForeground(Color.black);
 		}
 	}
+
+	public void setQuitButton() {
+		quitButton = new JButton(quitButtonImage);
+		quitButton.setBackground(new Color(0, 0, 0, 0));
+		quitButton.setBorderPainted(false);
+		quitButton.setBounds(1250, 0, 30, 30);
+		quitButton.addMouseListener(new MouseAdapter() {
