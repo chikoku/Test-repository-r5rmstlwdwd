@@ -1573,3 +1573,8 @@ public class DynamicVocaGUI extends JFrame {
 				System.exit(0);
 			}
 		});
+		add(quitButton);
+	}
+
+	public void setMenuBar() {
+		menuBar = new JLabel(new ImageIcon("images/menuBar.jpg"));
