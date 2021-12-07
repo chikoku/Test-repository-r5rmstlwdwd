@@ -1583,3 +1583,9 @@ public class DynamicVocaGUI extends JFrame {
 			@Override
 			public void mousePressed(MouseEvent e) {
 				mouseX = e.getX();
+				mouseY = e.getY();
+			}
+		});
+		menuBar.addMouseMotionListener(new MouseMotionAdapter() {
+			@Override
+			public void mouseDragged(MouseEvent e) {
