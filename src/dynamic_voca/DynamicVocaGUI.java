@@ -1578,3 +1578,8 @@ public class DynamicVocaGUI extends JFrame {
 
 	public void setMenuBar() {
 		menuBar = new JLabel(new ImageIcon("images/menuBar.jpg"));
+		menuBar.setBounds(0, 0, 1280, 30);
+		menuBar.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				mouseX = e.getX();
