@@ -1593,3 +1593,6 @@ public class DynamicVocaGUI extends JFrame {
 				int y = e.getYOnScreen();
 				setLocation(x - mouseX, y - mouseY);
 			}
+		});
+		add(menuBar);
+	}
