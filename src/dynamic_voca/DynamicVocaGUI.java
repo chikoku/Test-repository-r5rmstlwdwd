@@ -1600,3 +1600,6 @@ public class DynamicVocaGUI extends JFrame {
 	public void paint(Graphics g) {
 		screenImage = createImage(Main.SCREEN_WIDTH, Main.SCREEN_HEIGHT);
 		screenGraphic = screenImage.getGraphics();
+		screenDraw(screenGraphic);
+		g.drawImage(screenImage, 0, 0, null);
+	}
