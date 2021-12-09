@@ -1603,3 +1603,11 @@ public class DynamicVocaGUI extends JFrame {
 		screenDraw(screenGraphic);
 		g.drawImage(screenImage, 0, 0, null);
 	}
+
+	private void screenDraw(Graphics g) {
+		g.drawImage(background, 0, 0, null);
+		paintComponents(g);
+		this.repaint();
+	}
+
+	private class LimitTimeThread extends Thread {
