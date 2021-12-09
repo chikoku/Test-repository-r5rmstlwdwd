@@ -1596,3 +1596,7 @@ public class DynamicVocaGUI extends JFrame {
 		});
 		add(menuBar);
 	}
+
+	public void paint(Graphics g) {
+		screenImage = createImage(Main.SCREEN_WIDTH, Main.SCREEN_HEIGHT);
+		screenGraphic = screenImage.getGraphics();
