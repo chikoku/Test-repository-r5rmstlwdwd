@@ -1623,3 +1623,5 @@ public class DynamicVocaGUI extends JFrame {
 
 		public void run() {
 			while (!isTestEnd) {
+				int curQuestionNum = dynamicHandler.getQuestionNum();
+				boolean isInputAnswer = false;
