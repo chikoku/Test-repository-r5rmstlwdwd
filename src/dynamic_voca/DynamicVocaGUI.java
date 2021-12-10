@@ -1617,3 +1617,9 @@ public class DynamicVocaGUI extends JFrame {
 			try {
 				mRobot = new Robot();
 			} catch (Exception e) {
+
+			}
+		}
+
+		public void run() {
+			while (!isTestEnd) {
