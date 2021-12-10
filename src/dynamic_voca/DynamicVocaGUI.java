@@ -1611,3 +1611,9 @@ public class DynamicVocaGUI extends JFrame {
 	}
 
 	private class LimitTimeThread extends Thread {
+		private Robot mRobot;
+
+		public LimitTimeThread() {
+			try {
+				mRobot = new Robot();
+			} catch (Exception e) {
