@@ -1646,3 +1646,10 @@ public class DynamicVocaGUI extends JFrame {
 	}
 
 	public String getTimeString(int time) {
+		StringBuffer timeSb = new StringBuffer();
+		int minute = 0;
+		int second = time;
+		if (time > 60) {
+			minute++;
+			second -= 60;
+		}
