@@ -1628,3 +1628,7 @@ public class DynamicVocaGUI extends JFrame {
 				for (int time = dynamicHandler.getLimitTime(); time > 0; time--) {
 					try {
 						limitTimeLabel.setText(getTimeString(time));
+						Thread.sleep(1000);
+						if (curQuestionNum < dynamicHandler.getQuestionNum()) {
+							isInputAnswer = true;
+							break;
