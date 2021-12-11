@@ -1632,3 +1632,11 @@ public class DynamicVocaGUI extends JFrame {
 						if (curQuestionNum < dynamicHandler.getQuestionNum()) {
 							isInputAnswer = true;
 							break;
+						}
+					} catch (InterruptedException expn) {
+						return;
+					}
+				}
+				if (!isInputAnswer) {
+					mRobot.keyPress(KeyEvent.VK_ENTER);
+					mRobot.keyRelease(KeyEvent.VK_ENTER);
