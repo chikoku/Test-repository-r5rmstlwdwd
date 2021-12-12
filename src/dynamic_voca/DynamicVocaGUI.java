@@ -1656,3 +1656,5 @@ public class DynamicVocaGUI extends JFrame {
 		timeSb.append(minute).append(":").append(String.format("%02d", second));
 		return timeSb.toString();
 	}
+
+}
