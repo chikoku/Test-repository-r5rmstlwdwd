@@ -18,3 +18,8 @@ import java.util.Vector;
 import exception.InputException;
 
 public class DynamicVocaHandler {
+	private static DynamicVocaHandler inst = null;
+	private Set<Voca> vocaSet;
+	private QuestionList mQuestionList;
+	private String selectedFileName;
+	private boolean allowEffectSound;
