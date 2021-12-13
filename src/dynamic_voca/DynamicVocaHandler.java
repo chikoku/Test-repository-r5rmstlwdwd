@@ -23,3 +23,6 @@ public class DynamicVocaHandler {
 	private QuestionList mQuestionList;
 	private String selectedFileName;
 	private boolean allowEffectSound;
+	private boolean allowColorByMistakeCnt;
+	private int limitTime;
+	private Voca curQuestionVoca;
