@@ -29,3 +29,9 @@ public class DynamicVocaHandler {
 	private boolean isAnswer;
 	private int questionNum;
 	private int mistakeCntForShow;
+
+	File vocaSetDirectory = new File("sets");
+	File questionListDirectory = new File("lists");
+
+	public static DynamicVocaHandler createDynamicVocaHandlerInst() {
+		if (inst == null)
