@@ -26,3 +26,6 @@ public class DynamicVocaHandler {
 	private boolean allowColorByMistakeCnt;
 	private int limitTime;
 	private Voca curQuestionVoca;
+	private boolean isAnswer;
+	private int questionNum;
+	private int mistakeCntForShow;
