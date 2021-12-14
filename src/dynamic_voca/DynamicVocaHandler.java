@@ -35,3 +35,6 @@ public class DynamicVocaHandler {
 
 	public static DynamicVocaHandler createDynamicVocaHandlerInst() {
 		if (inst == null)
+			inst = new DynamicVocaHandler();
+		return inst;
+	}
