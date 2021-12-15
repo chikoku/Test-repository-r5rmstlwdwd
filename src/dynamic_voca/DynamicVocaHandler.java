@@ -43,3 +43,6 @@ public class DynamicVocaHandler {
 		vocaSet = new HashSet<>(3000);
 		if (!vocaSetDirectory.exists())
 			vocaSetDirectory.mkdir();
+		if (!questionListDirectory.exists())
+			questionListDirectory.mkdir();
+	}
