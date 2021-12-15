@@ -38,3 +38,8 @@ public class DynamicVocaHandler {
 			inst = new DynamicVocaHandler();
 		return inst;
 	}
+
+	private DynamicVocaHandler() {
+		vocaSet = new HashSet<>(3000);
+		if (!vocaSetDirectory.exists())
+			vocaSetDirectory.mkdir();
