@@ -55,3 +55,9 @@ public class DynamicVocaHandler {
 
 	public void setQuestionListForRetest() {
 		mQuestionList.setQusetionVocasByReviewVocas();
+	}
+
+	public String getQuestion() {
+		curQuestionVoca = mQuestionList.getQuestionVoca();
+		questionNum = mQuestionList.getQuestionNum();
+		if (curQuestionVoca == null)
