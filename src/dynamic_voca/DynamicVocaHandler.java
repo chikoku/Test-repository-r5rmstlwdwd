@@ -46,3 +46,12 @@ public class DynamicVocaHandler {
 		if (!questionListDirectory.exists())
 			questionListDirectory.mkdir();
 	}
+
+	public void setQuestionListForTest() {
+		mQuestionList = new QuestionList();
+		mQuestionList.setQuestionVocas(vocaSet);
+		mQuestionList.shuffleQuestionVocas();
+	}
+
+	public void setQuestionListForRetest() {
+		mQuestionList.setQusetionVocasByReviewVocas();
