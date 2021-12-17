@@ -61,3 +61,6 @@ public class DynamicVocaHandler {
 		curQuestionVoca = mQuestionList.getQuestionVoca();
 		questionNum = mQuestionList.getQuestionNum();
 		if (curQuestionVoca == null)
+			return "테스트 완료";
+		return curQuestionVoca.getEnglish();
+	}
