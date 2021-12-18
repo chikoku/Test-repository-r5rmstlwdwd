@@ -64,3 +64,7 @@ public class DynamicVocaHandler {
 			return "테스트 완료";
 		return curQuestionVoca.getEnglish();
 	}
+
+	public int getQuestionNum() {
+		return questionNum;
+	}
