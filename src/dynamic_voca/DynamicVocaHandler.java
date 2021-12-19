@@ -68,3 +68,7 @@ public class DynamicVocaHandler {
 	public int getQuestionNum() {
 		return questionNum;
 	}
+
+	public void setNextQuestion() {
+		mQuestionList.addQuestionNum();
+	}
