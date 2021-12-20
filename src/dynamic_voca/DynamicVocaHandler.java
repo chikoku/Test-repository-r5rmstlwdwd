@@ -72,3 +72,8 @@ public class DynamicVocaHandler {
 	public void setNextQuestion() {
 		mQuestionList.addQuestionNum();
 	}
+
+	public String testVocaInfo(String answer) {
+		StringBuffer testInfo = new StringBuffer();
+		String question = curQuestionVoca.getEnglish();
+		Vector<String> koreans = curQuestionVoca.getKoreans();
