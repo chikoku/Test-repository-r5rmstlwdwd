@@ -77,3 +77,8 @@ public class DynamicVocaHandler {
 		StringBuffer testInfo = new StringBuffer();
 		String question = curQuestionVoca.getEnglish();
 		Vector<String> koreans = curQuestionVoca.getKoreans();
+		isAnswer = false;
+		for (String kor : koreans) {
+			if (answer.equals(kor) && !answer.equals("")) {
+				if (allowEffectSound) {
+					Sound buttonPressedSound = new Sound("correctEffectSound.mp3", false);
