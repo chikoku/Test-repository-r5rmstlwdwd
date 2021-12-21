@@ -82,3 +82,11 @@ public class DynamicVocaHandler {
 			if (answer.equals(kor) && !answer.equals("")) {
 				if (allowEffectSound) {
 					Sound buttonPressedSound = new Sound("correctEffectSound.mp3", false);
+					buttonPressedSound.start();
+				}
+				isAnswer = true;
+				mQuestionList.addCorrectCnt();
+				break;
+			}
+		}
+		if (!isAnswer) {
