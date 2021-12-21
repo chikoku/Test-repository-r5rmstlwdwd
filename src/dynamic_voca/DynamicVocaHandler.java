@@ -90,3 +90,7 @@ public class DynamicVocaHandler {
 			}
 		}
 		if (!isAnswer) {
+			if (allowEffectSound) {
+				Sound buttonPressedSound = new Sound("incorrectEffectSound.mp3", false);
+				buttonPressedSound.start();
+			}
