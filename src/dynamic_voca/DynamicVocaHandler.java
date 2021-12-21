@@ -94,3 +94,10 @@ public class DynamicVocaHandler {
 				Sound buttonPressedSound = new Sound("incorrectEffectSound.mp3", false);
 				buttonPressedSound.start();
 			}
+			mQuestionList.addInReviewVocas(curQuestionVoca);
+			addMistakeCnt();
+		}
+		testInfo.append(mQuestionList.getQuestionNum()).append(". ").append(question);
+		testInfo.append(" : ").append(koreans.get(0));
+		if (!koreans.get(1).equals(""))
+			testInfo.append(", ").append(koreans.get(1));
