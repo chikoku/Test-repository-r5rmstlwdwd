@@ -106,3 +106,8 @@ public class DynamicVocaHandler {
 		testInfo.append("\n");
 		return testInfo.toString();
 	}
+
+	public void addMistakeCnt() {
+		Iterator<Voca> itr = vocaSet.iterator();
+		while (itr.hasNext()) {
+			Voca targetVoca = itr.next();
