@@ -116,3 +116,7 @@ public class DynamicVocaHandler {
 				break;
 			}
 		}
+	}
+
+	public String testSituationInfo() {
+		StringBuffer situationInfo = new StringBuffer();
