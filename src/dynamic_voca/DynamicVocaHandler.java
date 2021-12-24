@@ -127,3 +127,8 @@ public class DynamicVocaHandler {
 		situationInfo.append("진행률: ").append(mQuestionList.getProcessRate()).append(" %");
 		return situationInfo.toString();
 	}
+
+	public String appendVocaInfo(String eng, Vector<String> kors) {
+		StringBuffer appendInfo = new StringBuffer();
+		if (eng.equals("")) {
+			appendInfo.append("단어를 입력해주세요!").append("\n");
