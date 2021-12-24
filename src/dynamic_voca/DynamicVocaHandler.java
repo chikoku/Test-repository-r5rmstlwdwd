@@ -136,3 +136,8 @@ public class DynamicVocaHandler {
 		}
 		if (kors.get(0).equals("")) {
 			appendInfo.append("첫번째 의미를 입력해주세요!").append("\n");
+			return appendInfo.toString();
+		}
+		Voca mVoca = new Voca(eng, kors);
+		if (vocaSet.add(mVoca)) {
+			appendInfo.append(eng).append(" : ").append(kors.get(0));
