@@ -120,3 +120,10 @@ public class DynamicVocaHandler {
 
 	public String testSituationInfo() {
 		StringBuffer situationInfo = new StringBuffer();
+		situationInfo.append("남은 단어 수: ").append(mQuestionList.getRemainedQuestionCnt()).append("\n\n");
+		situationInfo.append("정답 수: ").append(mQuestionList.getCorrectCnt()).append("\n");
+		situationInfo.append("오답 수: ").append(mQuestionList.getIncorrectCnt()).append("\n\n");
+		situationInfo.append("정답률: ").append(mQuestionList.getCorrectRate()).append(" %\n");
+		situationInfo.append("진행률: ").append(mQuestionList.getProcessRate()).append(" %");
+		return situationInfo.toString();
+	}
