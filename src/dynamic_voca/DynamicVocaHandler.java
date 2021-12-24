@@ -132,3 +132,7 @@ public class DynamicVocaHandler {
 		StringBuffer appendInfo = new StringBuffer();
 		if (eng.equals("")) {
 			appendInfo.append("단어를 입력해주세요!").append("\n");
+			return appendInfo.toString();
+		}
+		if (kors.get(0).equals("")) {
+			appendInfo.append("첫번째 의미를 입력해주세요!").append("\n");
