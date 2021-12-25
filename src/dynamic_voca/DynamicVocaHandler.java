@@ -141,3 +141,5 @@ public class DynamicVocaHandler {
 		Voca mVoca = new Voca(eng, kors);
 		if (vocaSet.add(mVoca)) {
 			appendInfo.append(eng).append(" : ").append(kors.get(0));
+			if (!kors.get(1).equals(""))
+				appendInfo.append(", ").append(kors.get(1));
