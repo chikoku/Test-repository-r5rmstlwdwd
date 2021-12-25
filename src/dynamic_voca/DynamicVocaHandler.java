@@ -143,3 +143,11 @@ public class DynamicVocaHandler {
 			appendInfo.append(eng).append(" : ").append(kors.get(0));
 			if (!kors.get(1).equals(""))
 				appendInfo.append(", ").append(kors.get(1));
+			if (!kors.get(2).equals(""))
+				appendInfo.append(", ").append(kors.get(2));
+			appendInfo.append("\n");
+			appendInfo.append("단어 추가 완료 ");
+			appendInfo.append("[").append(vocaSet.size()).append("]");
+			appendInfo.append("\n");
+		} else {
+			appendInfo.append(eng);
