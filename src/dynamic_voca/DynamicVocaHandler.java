@@ -154,3 +154,4 @@ public class DynamicVocaHandler {
 			appendInfo.append("는 이미 등록된 단어입니다!").append("\n");
 		}
 		return appendInfo.toString();
+	}
