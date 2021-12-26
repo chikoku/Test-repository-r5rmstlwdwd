@@ -155,3 +155,10 @@ public class DynamicVocaHandler {
 		}
 		return appendInfo.toString();
 	}
+
+	private String searchVocaInfo(String input) {
+		StringBuffer searchInfo = new StringBuffer();
+		Iterator<Voca> itr = vocaSet.iterator();
+		if ((input.charAt(0) >= 65 && input.charAt(0) <= 90) || (input.charAt(0) >= 97 && input.charAt(0) <= 122)) {
+			Voca findVoca = null;
+			while (itr.hasNext()) {
