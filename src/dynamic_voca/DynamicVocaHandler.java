@@ -166,3 +166,5 @@ public class DynamicVocaHandler {
 				if (input.equals(findVoca.getEnglish())) {
 					Vector<String> koreans = findVoca.getKoreans();
 					searchInfo.append("파일명: ").append(selectedFileName).append("\n");
+					searchInfo.append("[ ").append(findVoca.getEnglish()).append(" ]");
+					searchInfo.append(" 오답수: ").append(findVoca.getMistakeCnt()).append("\n");
