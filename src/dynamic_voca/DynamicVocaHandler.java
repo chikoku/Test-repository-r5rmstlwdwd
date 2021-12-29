@@ -168,3 +168,5 @@ public class DynamicVocaHandler {
 					searchInfo.append("파일명: ").append(selectedFileName).append("\n");
 					searchInfo.append("[ ").append(findVoca.getEnglish()).append(" ]");
 					searchInfo.append(" 오답수: ").append(findVoca.getMistakeCnt()).append("\n");
+					searchInfo.append(koreans.get(0));
+					if (!koreans.get(1).equals(""))
