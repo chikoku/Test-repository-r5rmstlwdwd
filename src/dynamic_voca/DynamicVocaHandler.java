@@ -178,3 +178,9 @@ public class DynamicVocaHandler {
 				}
 			}
 			return searchInfo.toString();
+		} else {
+			Voca findVoca = null;
+			while (itr.hasNext()) {
+				findVoca = itr.next();
+				Vector<String> koreans = findVoca.getKoreans();
+				for (String kor : koreans) {
