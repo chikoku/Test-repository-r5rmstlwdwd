@@ -170,3 +170,8 @@ public class DynamicVocaHandler {
 					searchInfo.append(" ¿À´ä¼ö: ").append(findVoca.getMistakeCnt()).append("\n");
 					searchInfo.append(koreans.get(0));
 					if (!koreans.get(1).equals(""))
+						searchInfo.append(", ").append(koreans.get(1));
+					if (!koreans.get(2).equals(""))
+						searchInfo.append(", ").append(koreans.get(2));
+					searchInfo.append("\n");
+					return searchInfo.toString();
