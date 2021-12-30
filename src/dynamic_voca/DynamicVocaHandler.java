@@ -175,3 +175,6 @@ public class DynamicVocaHandler {
 						searchInfo.append(", ").append(koreans.get(2));
 					searchInfo.append("\n");
 					return searchInfo.toString();
+				}
+			}
+			return searchInfo.toString();
