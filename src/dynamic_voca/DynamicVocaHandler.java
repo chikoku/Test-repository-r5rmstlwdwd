@@ -199,3 +199,8 @@ public class DynamicVocaHandler {
 				}
 			}
 			return searchInfo.toString();
+		}
+	}
+
+	public String searchVocaInfoInAllFile(String input) throws InputException {
+		if (input.equals(""))
