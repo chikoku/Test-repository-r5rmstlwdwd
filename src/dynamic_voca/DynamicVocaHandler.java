@@ -215,3 +215,4 @@ public class DynamicVocaHandler {
 		if (searchInfos.toString().equals(""))
 			searchInfos.append("해당하는 단어가 존재하지 않습니다!").append("\n");
 		return searchInfos.toString();
+	}
