@@ -204,3 +204,8 @@ public class DynamicVocaHandler {
 
 	public String searchVocaInfoInAllFile(String input) throws InputException {
 		if (input.equals(""))
+			throw new InputException("검색할 단어을 입력해주세요!");
+		StringBuffer searchInfos = new StringBuffer();
+		String[] fileList = loadVocaSetsFileList();
+		for (String fileName : fileList) {
+			selectedFileName = fileName;
