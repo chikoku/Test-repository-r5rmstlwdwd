@@ -216,3 +216,8 @@ public class DynamicVocaHandler {
 			searchInfos.append("해당하는 단어가 존재하지 않습니다!").append("\n");
 		return searchInfos.toString();
 	}
+
+	private String deleteVocaInfo(String input) throws InputException {
+		StringBuffer deleteInfo = new StringBuffer();
+		Iterator<Voca> itr = vocaSet.iterator();
+		if ((input.charAt(0) >= 65 && input.charAt(0) <= 90) || (input.charAt(0) >= 97 && input.charAt(0) <= 122)) {
