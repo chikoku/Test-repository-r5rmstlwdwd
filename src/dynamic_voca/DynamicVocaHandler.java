@@ -234,3 +234,10 @@ public class DynamicVocaHandler {
 				}
 			}
 			return deleteInfo.toString();
+		} else {
+			throw new InputException("의미로는 단어를 삭제할 수 없습니다!");
+		}
+	}
+
+	public String deleteVocaInfoByFileName(String input, String fileName) throws InputException {
+		if (input.equals(""))
