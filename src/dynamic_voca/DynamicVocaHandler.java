@@ -241,3 +241,7 @@ public class DynamicVocaHandler {
 
 	public String deleteVocaInfoByFileName(String input, String fileName) throws InputException {
 		if (input.equals(""))
+			throw new InputException("삭제할 단어을 입력해주세요!");
+		if (!loadVocaSet(fileName))
+			throw new InputException("해당 파일이 존재하지 않습니다!");
+		StringBuffer deleteInfos = new StringBuffer();
