@@ -221,3 +221,8 @@ public class DynamicVocaHandler {
 		StringBuffer deleteInfo = new StringBuffer();
 		Iterator<Voca> itr = vocaSet.iterator();
 		if ((input.charAt(0) >= 65 && input.charAt(0) <= 90) || (input.charAt(0) >= 97 && input.charAt(0) <= 122)) {
+			Voca findVoca = null;
+			while (itr.hasNext()) {
+				findVoca = itr.next();
+				if (input.equals(findVoca.getEnglish())) {
+					deleteInfo.append("ÆÄÀÏ¸í: ").append(selectedFileName).append("\n");
