@@ -226,3 +226,11 @@ public class DynamicVocaHandler {
 				findVoca = itr.next();
 				if (input.equals(findVoca.getEnglish())) {
 					deleteInfo.append("파일명: ").append(selectedFileName).append("\n");
+					deleteInfo.append("[ ").append(findVoca.getEnglish()).append(" ] ");
+					deleteInfo.append("삭제완료").append("\n");
+					vocaSet.remove(findVoca);
+					saveVocaSet();
+					return deleteInfo.toString();
+				}
+			}
+			return deleteInfo.toString();
