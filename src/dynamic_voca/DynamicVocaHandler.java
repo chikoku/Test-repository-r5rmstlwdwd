@@ -249,3 +249,9 @@ public class DynamicVocaHandler {
 		String[] questionListFileList = loadQuestionListFileList();
 		for (String questionListFile : questionListFileList) {
 			if (questionListFile.indexOf(selectedFileName) != -1) {
+				System.out.println(selectedFileName);
+				deleteQuestionList(questionListFile);
+			}
+		}
+		deleteInfos.append(deleteVocaInfo(input));
+		if (deleteInfos.toString().equals(""))
