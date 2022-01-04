@@ -255,3 +255,10 @@ public class DynamicVocaHandler {
 		}
 		deleteInfos.append(deleteVocaInfo(input));
 		if (deleteInfos.toString().equals(""))
+			deleteInfos.append("해당하는 단어가 존재하지 않습니다!").append("\n");
+		return deleteInfos.toString();
+	}
+
+	public void checkInputException(String fileName) throws InputException {
+		if (fileName.equals(""))
+			throw new InputException("파일명 이름을 입력해주세요!");
