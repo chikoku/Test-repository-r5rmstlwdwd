@@ -245,3 +245,7 @@ public class DynamicVocaHandler {
 		if (!loadVocaSet(fileName))
 			throw new InputException("해당 파일이 존재하지 않습니다!");
 		StringBuffer deleteInfos = new StringBuffer();
+		selectedFileName = fileName;
+		String[] questionListFileList = loadQuestionListFileList();
+		for (String questionListFile : questionListFileList) {
+			if (questionListFile.indexOf(selectedFileName) != -1) {
