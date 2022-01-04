@@ -262,3 +262,10 @@ public class DynamicVocaHandler {
 	public void checkInputException(String fileName) throws InputException {
 		if (fileName.equals(""))
 			throw new InputException("파일명 이름을 입력해주세요!");
+		if (!loadVocaSet(fileName))
+			throw new InputException("존재하지 않는 파일명입니다!");
+	}
+
+	public void setMistakeCntForShow(String misCnt) throws InputException {
+		if (misCnt.equals(""))
+			throw new InputException("오답 수를 입력해주세요!");
