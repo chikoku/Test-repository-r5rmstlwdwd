@@ -269,3 +269,7 @@ public class DynamicVocaHandler {
 	public void setMistakeCntForShow(String misCnt) throws InputException {
 		if (misCnt.equals(""))
 			throw new InputException("오답 수를 입력해주세요!");
+		if (misCnt.charAt(0) < 48 || misCnt.charAt(0) > 57)
+			throw new InputException("오답 수를 숫자로 입력해주세요!");
+		mistakeCntForShow = Integer.valueOf(misCnt);
+	}
