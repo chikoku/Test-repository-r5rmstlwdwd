@@ -273,3 +273,9 @@ public class DynamicVocaHandler {
 			throw new InputException("오답 수를 숫자로 입력해주세요!");
 		mistakeCntForShow = Integer.valueOf(misCnt);
 	}
+
+	public String showTotalVocaByFile(String fileName) {
+		StringBuffer totalInfo = new StringBuffer();
+		Iterator<Voca> itr = vocaSet.iterator();
+		int vocaNum = 0;
+		totalInfo.append("=====================================================\n");
