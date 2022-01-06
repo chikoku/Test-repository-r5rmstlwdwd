@@ -287,3 +287,7 @@ public class DynamicVocaHandler {
 			Vector<String> koreans = findVoca.getKoreans();
 			totalInfo.append(++vocaNum).append(". ");
 			totalInfo.append("[ ").append(findVoca.getEnglish()).append(" ]");
+			totalInfo.append(" ¿À´ä¼ö: ").append(findVoca.getMistakeCnt()).append("\n");
+			totalInfo.append(koreans.get(0));
+			if (!koreans.get(1).equals(""))
+				totalInfo.append(", ").append(koreans.get(1));
