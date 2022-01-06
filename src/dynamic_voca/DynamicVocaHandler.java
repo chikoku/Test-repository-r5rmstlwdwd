@@ -279,3 +279,8 @@ public class DynamicVocaHandler {
 		Iterator<Voca> itr = vocaSet.iterator();
 		int vocaNum = 0;
 		totalInfo.append("=====================================================\n");
+		totalInfo.append("ÆÄÀÏ¸í: ").append(fileName).append("\n");
+		while (itr.hasNext()) {
+			Voca findVoca = itr.next();
+			if (findVoca.getMistakeCnt() < mistakeCntForShow)
+				continue;
