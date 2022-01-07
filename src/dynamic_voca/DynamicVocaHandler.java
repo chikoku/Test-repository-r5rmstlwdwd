@@ -297,3 +297,9 @@ public class DynamicVocaHandler {
 		}
 		return totalInfo.toString();
 	}
+
+	public void createVocaCollection(String fileName) throws InputException {
+		if (fileName.equals(""))
+			throw new InputException("문제집 이름을 입력해주세요!");
+		if (fileName.indexOf("_") != -1 || fileName.indexOf(".") != -1)
+			throw new InputException("_와 .는 사용할 수 없습니다!");
