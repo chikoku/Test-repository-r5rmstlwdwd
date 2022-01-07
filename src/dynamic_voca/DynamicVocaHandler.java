@@ -291,3 +291,9 @@ public class DynamicVocaHandler {
 			totalInfo.append(koreans.get(0));
 			if (!koreans.get(1).equals(""))
 				totalInfo.append(", ").append(koreans.get(1));
+			if (!koreans.get(2).equals(""))
+				totalInfo.append(", ").append(koreans.get(2));
+			totalInfo.append("\n");
+		}
+		return totalInfo.toString();
+	}
