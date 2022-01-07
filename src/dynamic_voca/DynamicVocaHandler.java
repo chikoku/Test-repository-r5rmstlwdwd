@@ -303,3 +303,9 @@ public class DynamicVocaHandler {
 			throw new InputException("문제집 이름을 입력해주세요!");
 		if (fileName.indexOf("_") != -1 || fileName.indexOf(".") != -1)
 			throw new InputException("_와 .는 사용할 수 없습니다!");
+		try {
+			File createFile = new File("sets/" + fileName + ".txt");
+			if (createFile.exists())
+				throw new InputException("이미 존재하는 이름입니다.");
+			createFile.createNewFile();
+		} catch (IOException expn) {
