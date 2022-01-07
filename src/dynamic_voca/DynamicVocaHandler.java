@@ -309,3 +309,8 @@ public class DynamicVocaHandler {
 				throw new InputException("이미 존재하는 이름입니다.");
 			createFile.createNewFile();
 		} catch (IOException expn) {
+			expn.printStackTrace();
+		}
+	}
+
+	public void setSelectedFileName(String fileName) throws InputException {
