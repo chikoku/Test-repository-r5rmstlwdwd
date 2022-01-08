@@ -314,3 +314,7 @@ public class DynamicVocaHandler {
 	}
 
 	public void setSelectedFileName(String fileName) throws InputException {
+		if (fileName == null)
+			throw new InputException("파일을 선택해주세요!");
+		selectedFileName = fileName;
+	}
