@@ -318,3 +318,10 @@ public class DynamicVocaHandler {
 			throw new InputException("파일을 선택해주세요!");
 		selectedFileName = fileName;
 	}
+
+	public String getSelectedFileName() {
+		return selectedFileName;
+	}
+
+	public void deleteVocaCollection(String fileName) throws InputException {
+		if (fileName == null)
