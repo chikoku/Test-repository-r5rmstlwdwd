@@ -331,3 +331,6 @@ public class DynamicVocaHandler {
 	}
 
 	public void deleteQuestionList(String fileName) throws InputException {
+		if (fileName == null)
+			throw new InputException("삭제할 파일을 선택해주세요!");
+		File deleteFile = new File("lists/" + fileName);
