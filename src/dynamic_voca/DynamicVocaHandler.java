@@ -342,3 +342,9 @@ public class DynamicVocaHandler {
 		for (String file : fileList) {
 			if (file.indexOf(fileName) != -1) {
 				File deleteFile = new File("lists/" + file);
+				deleteFile.delete();
+			}
+		}
+	}
+
+	public String initializeMistakeCnt(String fileName) throws InputException {
