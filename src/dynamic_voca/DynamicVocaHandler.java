@@ -354,3 +354,8 @@ public class DynamicVocaHandler {
 			throw new InputException("존재하지 않는 파일명입니다!");
 		selectedFileName = fileName;
 		StringBuffer initInfo = new StringBuffer();
+		Iterator<Voca> itr = vocaSet.iterator();
+		while (itr.hasNext())
+			itr.next().setMistakeCnt(0);
+		initInfo.append(fileName).append(" 파일의 모든 단어 오답수 초기화 완료!\n");
+		return initInfo.toString();
