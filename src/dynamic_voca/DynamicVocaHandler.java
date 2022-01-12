@@ -348,3 +348,9 @@ public class DynamicVocaHandler {
 	}
 
 	public String initializeMistakeCnt(String fileName) throws InputException {
+		if (fileName == null)
+			throw new InputException("오답수를 초기화할 파일을 선택해주세요!");
+		if (!loadVocaSet(fileName))
+			throw new InputException("존재하지 않는 파일명입니다!");
+		selectedFileName = fileName;
+		StringBuffer initInfo = new StringBuffer();
