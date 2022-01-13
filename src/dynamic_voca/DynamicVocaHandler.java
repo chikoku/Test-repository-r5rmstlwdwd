@@ -359,3 +359,6 @@ public class DynamicVocaHandler {
 			itr.next().setMistakeCnt(0);
 		initInfo.append(fileName).append(" 파일의 모든 단어 오답수 초기화 완료!\n");
 		return initInfo.toString();
+	}
+
+	public String[] loadVocaSetsFileList() {
