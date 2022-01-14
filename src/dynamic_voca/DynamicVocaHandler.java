@@ -367,3 +367,6 @@ public class DynamicVocaHandler {
 			fileList[i] = fileList[i].substring(0, fileList[i].indexOf("."));
 		return fileList;
 	}
+
+	public String[] loadQuestionListFileList() {
+		String[] fileList = questionListDirectory.list();
