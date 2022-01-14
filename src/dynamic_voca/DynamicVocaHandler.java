@@ -362,3 +362,8 @@ public class DynamicVocaHandler {
 	}
 
 	public String[] loadVocaSetsFileList() {
+		String[] fileList = vocaSetDirectory.list();
+		for (int i = 0; i < fileList.length; i++)
+			fileList[i] = fileList[i].substring(0, fileList[i].indexOf("."));
+		return fileList;
+	}
