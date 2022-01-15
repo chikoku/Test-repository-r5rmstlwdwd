@@ -370,3 +370,5 @@ public class DynamicVocaHandler {
 
 	public String[] loadQuestionListFileList() {
 		String[] fileList = questionListDirectory.list();
+		return fileList;
+	}
