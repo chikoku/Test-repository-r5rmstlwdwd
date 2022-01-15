@@ -372,3 +372,8 @@ public class DynamicVocaHandler {
 		String[] fileList = questionListDirectory.list();
 		return fileList;
 	}
+
+	public void setLimitTime(int index) {
+		switch (index) {
+		case 0:
+			limitTime = 3;
