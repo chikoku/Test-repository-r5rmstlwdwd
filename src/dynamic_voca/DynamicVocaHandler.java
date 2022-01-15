@@ -377,3 +377,11 @@ public class DynamicVocaHandler {
 		switch (index) {
 		case 0:
 			limitTime = 3;
+			break;
+		case 1:
+			limitTime = 5;
+			break;
+		case 2:
+			limitTime = 10;
+			break;
+		case 3:
