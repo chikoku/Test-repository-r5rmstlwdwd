@@ -388,3 +388,6 @@ public class DynamicVocaHandler {
 			limitTime = 30;
 			break;
 		case 4:
+			limitTime = 0;
+			break;
+		}
