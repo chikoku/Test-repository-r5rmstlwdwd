@@ -392,3 +392,10 @@ public class DynamicVocaHandler {
 			break;
 		}
 	}
+
+	public int getQuestionTextColorByMistakeCnt() {
+		if (!allowColorByMistakeCnt)
+			return 0;
+		int curMistakeCnt = 0;
+		Iterator<Voca> itr = vocaSet.iterator();
+		while (itr.hasNext()) {
