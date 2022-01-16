@@ -391,3 +391,4 @@ public class DynamicVocaHandler {
 			limitTime = 0;
 			break;
 		}
+	}
