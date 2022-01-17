@@ -417,3 +417,7 @@ public class DynamicVocaHandler {
 			return 1;
 		return 0;
 	}
+
+	public int getLimitTime() {
+		return limitTime;
+	}
