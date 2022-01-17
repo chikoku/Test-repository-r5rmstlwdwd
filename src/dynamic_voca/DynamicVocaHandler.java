@@ -402,3 +402,7 @@ public class DynamicVocaHandler {
 			Voca targetVoca = itr.next();
 			if (targetVoca.equals(curQuestionVoca))
 				curMistakeCnt = targetVoca.getMistakeCnt();
+		}
+		if (curMistakeCnt > 19)
+			return 6;
+		if (curMistakeCnt > 14)
