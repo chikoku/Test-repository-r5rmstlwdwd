@@ -406,3 +406,14 @@ public class DynamicVocaHandler {
 		if (curMistakeCnt > 19)
 			return 6;
 		if (curMistakeCnt > 14)
+			return 5;
+		if (curMistakeCnt > 9)
+			return 4;
+		if (curMistakeCnt > 4)
+			return 3;
+		if (curMistakeCnt > 2)
+			return 2;
+		if (curMistakeCnt > 0)
+			return 1;
+		return 0;
+	}
