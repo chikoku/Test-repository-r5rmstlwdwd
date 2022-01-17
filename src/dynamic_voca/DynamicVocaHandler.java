@@ -399,3 +399,6 @@ public class DynamicVocaHandler {
 		int curMistakeCnt = 0;
 		Iterator<Voca> itr = vocaSet.iterator();
 		while (itr.hasNext()) {
+			Voca targetVoca = itr.next();
+			if (targetVoca.equals(curQuestionVoca))
+				curMistakeCnt = targetVoca.getMistakeCnt();
