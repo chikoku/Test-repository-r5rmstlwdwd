@@ -421,3 +421,7 @@ public class DynamicVocaHandler {
 	public int getLimitTime() {
 		return limitTime;
 	}
+
+	public void setAllowEffectSound(boolean allow) {
+		allowEffectSound = allow;
+	}
