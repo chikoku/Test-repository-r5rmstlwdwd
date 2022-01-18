@@ -429,3 +429,6 @@ public class DynamicVocaHandler {
 	public void setAllowColorByMistkeCnt(boolean allow) {
 		allowColorByMistakeCnt = allow;
 	}
+
+	public void saveVocaSet() {
+		if (selectedFileName.indexOf("txt") != -1) {
