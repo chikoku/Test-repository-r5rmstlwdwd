@@ -425,3 +425,7 @@ public class DynamicVocaHandler {
 	public void setAllowEffectSound(boolean allow) {
 		allowEffectSound = allow;
 	}
+
+	public void setAllowColorByMistkeCnt(boolean allow) {
+		allowColorByMistakeCnt = allow;
+	}
