@@ -436,3 +436,6 @@ public class DynamicVocaHandler {
 			selectedFileName = st.nextToken();
 		}
 		File selectedFile = new File("sets/" + selectedFileName + ".txt");
+		try {
+			FileOutputStream fos = new FileOutputStream(selectedFile);
+			ObjectOutputStream os = new ObjectOutputStream(fos);
