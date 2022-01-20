@@ -439,3 +439,7 @@ public class DynamicVocaHandler {
 		try {
 			FileOutputStream fos = new FileOutputStream(selectedFile);
 			ObjectOutputStream os = new ObjectOutputStream(fos);
+
+			Iterator<Voca> itr = vocaSet.iterator();
+			while (itr.hasNext())
+				os.writeObject(itr.next());
