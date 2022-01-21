@@ -452,3 +452,7 @@ public class DynamicVocaHandler {
 
 	public boolean loadVocaSet(String fileName) {
 		if (fileName.indexOf("txt") != -1) {
+			StringTokenizer st = new StringTokenizer(fileName, "_");
+			fileName = st.nextToken();
+		}
+		File selectedFile = new File("sets/" + fileName + ".txt");
