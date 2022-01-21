@@ -443,3 +443,12 @@ public class DynamicVocaHandler {
 			Iterator<Voca> itr = vocaSet.iterator();
 			while (itr.hasNext())
 				os.writeObject(itr.next());
+
+			os.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public boolean loadVocaSet(String fileName) {
+		if (fileName.indexOf("txt") != -1) {
