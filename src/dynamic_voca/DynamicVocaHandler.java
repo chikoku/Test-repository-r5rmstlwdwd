@@ -456,3 +456,7 @@ public class DynamicVocaHandler {
 			fileName = st.nextToken();
 		}
 		File selectedFile = new File("sets/" + fileName + ".txt");
+		if (!selectedFile.exists())
+			return false;
+		try {
+			vocaSet.clear();
