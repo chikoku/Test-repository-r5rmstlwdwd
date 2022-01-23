@@ -466,3 +466,14 @@ public class DynamicVocaHandler {
 			while (true) {
 				Voca mVoca = (Voca) is.readObject();
 				if (mVoca == null)
+					break;
+				vocaSet.add(mVoca);
+			}
+			is.close();
+			return true;
+		} catch (IOException e) {
+			return true;
+		} catch (ClassNotFoundException e) {
+			return true;
+		}
+	}
