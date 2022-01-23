@@ -460,3 +460,9 @@ public class DynamicVocaHandler {
 			return false;
 		try {
 			vocaSet.clear();
+			FileInputStream fos = new FileInputStream(selectedFile);
+			ObjectInputStream is = new ObjectInputStream(fos);
+
+			while (true) {
+				Voca mVoca = (Voca) is.readObject();
+				if (mVoca == null)
