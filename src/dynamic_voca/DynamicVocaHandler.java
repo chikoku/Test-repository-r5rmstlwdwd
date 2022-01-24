@@ -477,3 +477,11 @@ public class DynamicVocaHandler {
 			return true;
 		}
 	}
+
+	public String saveQuestionList() {
+		String saveFileName;
+		StringBuffer sb = new StringBuffer();
+		int fileId = questionListDirectory.list().length;
+		SimpleDateFormat ft = new SimpleDateFormat("yyyy.MM.dd");
+		String nowDate = ft.format(new Date());
+		if (selectedFileName.indexOf("txt") != -1) {
