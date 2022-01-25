@@ -485,3 +485,5 @@ public class DynamicVocaHandler {
 		SimpleDateFormat ft = new SimpleDateFormat("yyyy.MM.dd");
 		String nowDate = ft.format(new Date());
 		if (selectedFileName.indexOf("txt") != -1) {
+			StringTokenizer st = new StringTokenizer(selectedFileName, "_");
+			selectedFileName = st.nextToken();
