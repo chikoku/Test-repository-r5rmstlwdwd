@@ -504,3 +504,12 @@ public class DynamicVocaHandler {
 		}
 		return saveFileName;
 	}
+
+	public boolean loadQuestionList(String fileName) {
+		File selectedFile = new File("lists/" + fileName);
+		if (!selectedFile.exists())
+			return false;
+		try {
+			mQuestionList = new QuestionList();
+			FileInputStream fos = new FileInputStream(selectedFile);
+			ObjectInputStream is = new ObjectInputStream(fos);
