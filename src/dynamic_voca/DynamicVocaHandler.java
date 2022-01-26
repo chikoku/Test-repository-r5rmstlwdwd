@@ -487,3 +487,7 @@ public class DynamicVocaHandler {
 		if (selectedFileName.indexOf("txt") != -1) {
 			StringTokenizer st = new StringTokenizer(selectedFileName, "_");
 			selectedFileName = st.nextToken();
+		}
+
+		sb.append(selectedFileName).append("_");
+		sb.append(nowDate).append("_");
