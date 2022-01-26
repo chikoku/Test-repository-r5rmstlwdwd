@@ -491,3 +491,11 @@ public class DynamicVocaHandler {
 
 		sb.append(selectedFileName).append("_");
 		sb.append(nowDate).append("_");
+		sb.append(fileId);
+		saveFileName = sb.toString();
+		File saveQuestionListFile = new File("lists/" + saveFileName + ".txt");
+		try {
+			FileOutputStream fos = new FileOutputStream(saveQuestionListFile);
+			ObjectOutputStream os = new ObjectOutputStream(fos);
+			os.writeObject(mQuestionList);
+			os.close();
