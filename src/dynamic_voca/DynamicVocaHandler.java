@@ -513,3 +513,7 @@ public class DynamicVocaHandler {
 			mQuestionList = new QuestionList();
 			FileInputStream fos = new FileInputStream(selectedFile);
 			ObjectInputStream is = new ObjectInputStream(fos);
+			mQuestionList = (QuestionList) is.readObject();
+			is.close();
+			return true;
+		} catch (IOException e) {
