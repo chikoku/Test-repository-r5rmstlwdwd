@@ -522,3 +522,11 @@ public class DynamicVocaHandler {
 			return true;
 		}
 	}
+
+	public String getDevelopInformation() {
+		StringBuffer developInfo = new StringBuffer();
+		developInfo.append("프로그램명 : Dynamic Voca").append("\n");
+		developInfo.append("소속 : 숭실대학교 컴퓨터학부").append("\n");
+		developInfo.append("개발자 : 배형진").append("\n");
+		developInfo.append("개발툴 : Eclipse").append("\n");
+		developInfo.append("문의 이메일 : dkwk1254@naver.com").append("\n");
