@@ -517,3 +517,8 @@ public class DynamicVocaHandler {
 			is.close();
 			return true;
 		} catch (IOException e) {
+			return true;
+		} catch (ClassNotFoundException e) {
+			return true;
+		}
+	}
