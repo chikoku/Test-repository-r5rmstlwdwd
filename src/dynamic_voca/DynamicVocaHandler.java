@@ -530,3 +530,6 @@ public class DynamicVocaHandler {
 		developInfo.append("개발자 : 배형진").append("\n");
 		developInfo.append("개발툴 : Eclipse").append("\n");
 		developInfo.append("문의 이메일 : dkwk1254@naver.com").append("\n");
+		return developInfo.toString();
+	}
+}
