@@ -1,1 +1,3 @@
-package dynamic_voca
+package dynamic_voca;
+
+pub
