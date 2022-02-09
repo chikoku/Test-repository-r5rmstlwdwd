@@ -1,3 +1,3 @@
 package dynamic_voca;
 
-public clas
+public class Main 
