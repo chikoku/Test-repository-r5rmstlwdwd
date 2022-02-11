@@ -2,4 +2,4 @@ package dynamic_voca;
 
 public class Main {
 	
-	static 
+	static final 
