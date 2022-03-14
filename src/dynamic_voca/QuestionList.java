@@ -7,4 +7,4 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.Set;
 
-public class QuestionList implements Serializa
+public class QuestionList implements Serializable {
