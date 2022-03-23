@@ -10,4 +10,5 @@ import java.util.Set;
 public class QuestionList implements Serializable {
 	private static final long serialVersionUID = 29326037884185078L;
 
-	private ArrayList<Voca> questionVo
+	private ArrayList<Voca> questionVocas;
+	
