@@ -12,4 +12,4 @@ public class QuestionList implements Serializable {
 
 	private ArrayList<Voca> questionVocas;
 	private ArrayList<Voca> reviewVocas;
-	privat
+	private in
