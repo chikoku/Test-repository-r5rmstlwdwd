@@ -11,4 +11,5 @@ public class QuestionList implements Serializable {
 	private static final long serialVersionUID = 29326037884185078L;
 
 	private ArrayList<Voca> questionVocas;
-	private ArrayList<Voca> review
+	private ArrayList<Voca> reviewVocas;
+	
