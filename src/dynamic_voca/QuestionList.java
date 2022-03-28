@@ -13,4 +13,4 @@ public class QuestionList implements Serializable {
 	private ArrayList<Voca> questionVocas;
 	private ArrayList<Voca> reviewVocas;
 	private int questionNum;
-	private int 
+	private int co
