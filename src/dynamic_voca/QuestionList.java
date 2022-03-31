@@ -16,4 +16,5 @@ public class QuestionList implements Serializable {
 	private int correctCnt;
 	private int incorrectCnt;
 
-	public QuestionList()
+	public QuestionList() {
+		ques
