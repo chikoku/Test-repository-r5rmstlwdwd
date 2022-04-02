@@ -17,4 +17,4 @@ public class QuestionList implements Serializable {
 	private int incorrectCnt;
 
 	public QuestionList() {
-		questionVocas 
+		questionVocas = new 
