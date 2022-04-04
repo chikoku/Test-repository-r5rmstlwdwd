@@ -17,4 +17,5 @@ public class QuestionList implements Serializable {
 	private int incorrectCnt;
 
 	public QuestionList() {
-		questionVocas = new ArrayList<>(3000
+		questionVocas = new ArrayList<>(3000);
+		rev
