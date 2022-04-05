@@ -18,4 +18,4 @@ public class QuestionList implements Serializable {
 
 	public QuestionList() {
 		questionVocas = new ArrayList<>(3000);
-		reviewVocas = new Ar
+		reviewVocas = new ArrayL
