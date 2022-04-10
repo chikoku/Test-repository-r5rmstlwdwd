@@ -19,4 +19,4 @@ public class QuestionList implements Serializable {
 	public QuestionList() {
 		questionVocas = new ArrayList<>(3000);
 		reviewVocas = new ArrayList<>(1000);
-		questionNum =
+		questionNum = 0;
