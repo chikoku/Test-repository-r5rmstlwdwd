@@ -20,3 +20,4 @@ public class QuestionList implements Serializable {
 		questionVocas = new ArrayList<>(3000);
 		reviewVocas = new ArrayList<>(1000);
 		questionNum = 0;
+		cor
