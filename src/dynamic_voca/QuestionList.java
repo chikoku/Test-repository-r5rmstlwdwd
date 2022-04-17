@@ -24,4 +24,5 @@ public class QuestionList implements Serializable {
 		incorrectCnt = 0;
 	}
 
-	public void setQuestionVocas(Set<Voca> vocaSet)
+	public void setQuestionVocas(Set<Voca> vocaSet) {
+		It
