@@ -25,4 +25,4 @@ public class QuestionList implements Serializable {
 	}
 
 	public void setQuestionVocas(Set<Voca> vocaSet) {
-		It
+		Iterator<V
