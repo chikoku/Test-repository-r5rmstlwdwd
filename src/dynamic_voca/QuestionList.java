@@ -27,4 +27,4 @@ public class QuestionList implements Serializable {
 	public void setQuestionVocas(Set<Voca> vocaSet) {
 		Iterator<Voca> itr = vocaSet.iterator();
 		while (itr.hasNext())
-			questionVocas.add(itr.n
+			questionVocas.add(itr.next
