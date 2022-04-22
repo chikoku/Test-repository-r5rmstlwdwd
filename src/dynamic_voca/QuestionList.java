@@ -28,3 +28,6 @@ public class QuestionList implements Serializable {
 		Iterator<Voca> itr = vocaSet.iterator();
 		while (itr.hasNext())
 			questionVocas.add(itr.next());
+	}
+
+	p
