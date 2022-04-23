@@ -30,4 +30,4 @@ public class QuestionList implements Serializable {
 			questionVocas.add(itr.next());
 	}
 
-	publi
+	public Voc
