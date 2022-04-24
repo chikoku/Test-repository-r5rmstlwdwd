@@ -30,4 +30,4 @@ public class QuestionList implements Serializable {
 			questionVocas.add(itr.next());
 	}
 
-	public Voca ge
+	public Voca getQuest
