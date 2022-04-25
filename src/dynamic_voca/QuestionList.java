@@ -30,4 +30,5 @@ public class QuestionList implements Serializable {
 			questionVocas.add(itr.next());
 	}
 
-	public Voca getQuestionVoca()
+	public Voca getQuestionVoca() {
+		if
