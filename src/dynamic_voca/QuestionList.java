@@ -31,4 +31,4 @@ public class QuestionList implements Serializable {
 	}
 
 	public Voca getQuestionVoca() {
-		if (questionNum == questionVocas.siz
+		if (questionNum == questionVocas.size(
