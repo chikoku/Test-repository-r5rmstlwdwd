@@ -33,4 +33,4 @@ public class QuestionList implements Serializable {
 	public Voca getQuestionVoca() {
 		if (questionNum == questionVocas.size())
 			return null;
-		return questionVocas.get(questi
+		return questionVocas.get(questionNum)
