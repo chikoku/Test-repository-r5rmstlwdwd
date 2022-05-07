@@ -36,4 +36,4 @@ public class QuestionList implements Serializable {
 		return questionVocas.get(questionNum);
 	}
 
-	pu
+	public voi
