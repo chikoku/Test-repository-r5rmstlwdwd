@@ -36,4 +36,5 @@ public class QuestionList implements Serializable {
 		return questionVocas.get(questionNum);
 	}
 
-	public void shuffleQuestionVocas() 
+	public void shuffleQuestionVocas() {
+		
