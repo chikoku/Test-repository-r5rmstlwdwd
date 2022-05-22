@@ -37,4 +37,7 @@ public class QuestionList implements Serializable {
 	}
 
 	public void shuffleQuestionVocas() {
-		Collections.shuffle(questionVoca
+		Collections.shuffle(questionVocas);
+	}
+
+	
