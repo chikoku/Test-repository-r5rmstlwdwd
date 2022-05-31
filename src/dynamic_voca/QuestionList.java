@@ -40,4 +40,4 @@ public class QuestionList implements Serializable {
 		Collections.shuffle(questionVocas);
 	}
 
-	public void addInReviewVocas(V
+	public void addInReviewVocas(Voca misVo
