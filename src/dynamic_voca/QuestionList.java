@@ -41,4 +41,4 @@ public class QuestionList implements Serializable {
 	}
 
 	public void addInReviewVocas(Voca misVoca) {
-		reviewVocas.add(mis
+		reviewVocas.add(misVoca);
