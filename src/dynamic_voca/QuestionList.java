@@ -45,4 +45,4 @@ public class QuestionList implements Serializable {
 		incorrectCnt++;
 	}
 
-	p
+	publ
