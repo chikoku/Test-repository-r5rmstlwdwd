@@ -46,4 +46,4 @@ public class QuestionList implements Serializable {
 	}
 
 	public ArrayList<Voca> getReviewVoca() {
-		return rev
+		return reviewVoca
