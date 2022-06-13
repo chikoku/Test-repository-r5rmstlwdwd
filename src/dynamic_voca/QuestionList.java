@@ -50,4 +50,4 @@ public class QuestionList implements Serializable {
 	}
 
 	public void setQusetionVocasByReviewVocas() {
-		questionVocas =
+		questionVocas = revie
