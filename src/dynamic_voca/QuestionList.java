@@ -51,3 +51,4 @@ public class QuestionList implements Serializable {
 
 	public void setQusetionVocasByReviewVocas() {
 		questionVocas = reviewVocas;
+		rev
