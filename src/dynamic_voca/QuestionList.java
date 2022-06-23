@@ -52,4 +52,4 @@ public class QuestionList implements Serializable {
 	public void setQusetionVocasByReviewVocas() {
 		questionVocas = reviewVocas;
 		reviewVocas = new ArrayList<>(1000);
-		questionNu
+		questionNum = 0;
