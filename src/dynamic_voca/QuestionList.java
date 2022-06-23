@@ -53,4 +53,4 @@ public class QuestionList implements Serializable {
 		questionVocas = reviewVocas;
 		reviewVocas = new ArrayList<>(1000);
 		questionNum = 0;
-		
+		corr
