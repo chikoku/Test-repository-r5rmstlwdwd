@@ -55,3 +55,4 @@ public class QuestionList implements Serializable {
 		questionNum = 0;
 		correctCnt = 0;
 		incorrectCnt = 0;
+	}
