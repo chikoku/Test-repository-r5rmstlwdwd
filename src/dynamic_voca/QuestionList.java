@@ -57,4 +57,4 @@ public class QuestionList implements Serializable {
 		incorrectCnt = 0;
 	}
 
-	public String
+	public String getPro
