@@ -58,4 +58,4 @@ public class QuestionList implements Serializable {
 	}
 
 	public String getProcessRate() {
-		if (questionVocas.siz
+		if (questionVocas.size(
