@@ -59,4 +59,5 @@ public class QuestionList implements Serializable {
 
 	public String getProcessRate() {
 		if (questionVocas.size() == 0)
-			return "
+			return "0";
+		De
