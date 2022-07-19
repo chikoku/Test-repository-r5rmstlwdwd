@@ -60,4 +60,4 @@ public class QuestionList implements Serializable {
 	public String getProcessRate() {
 		if (questionVocas.size() == 0)
 			return "0";
-		DecimalFormat df = new DecimalFor
+		DecimalFormat df = new DecimalFormat("
