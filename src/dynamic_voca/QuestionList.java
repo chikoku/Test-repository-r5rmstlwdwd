@@ -61,4 +61,5 @@ public class QuestionList implements Serializable {
 		if (questionVocas.size() == 0)
 			return "0";
 		DecimalFormat df = new DecimalFormat("##.#");
-		double processRate = (double) questionNum / questionVocas.size() * 10
+		double processRate = (double) questionNum / questionVocas.size() * 100;
+		
