@@ -65,4 +65,4 @@ public class QuestionList implements Serializable {
 		return df.format(processRate);
 	}
 
-	pub
+	public 
