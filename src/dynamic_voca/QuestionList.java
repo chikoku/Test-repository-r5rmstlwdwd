@@ -66,4 +66,5 @@ public class QuestionList implements Serializable {
 	}
 
 	public String getCorrectRate() {
-		if (correctCnt == 
+		if (correctCnt == 0)
+			r
