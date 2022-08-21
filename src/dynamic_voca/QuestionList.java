@@ -68,4 +68,5 @@ public class QuestionList implements Serializable {
 	public String getCorrectRate() {
 		if (correctCnt == 0)
 			return "0";
-		DecimalFormat df = new DecimalFormat("##.#")
+		DecimalFormat df = new DecimalFormat("##.#");
+		dou
