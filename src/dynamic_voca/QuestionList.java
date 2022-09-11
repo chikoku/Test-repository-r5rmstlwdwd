@@ -69,4 +69,5 @@ public class QuestionList implements Serializable {
 		if (correctCnt == 0)
 			return "0";
 		DecimalFormat df = new DecimalFormat("##.#");
-		double correctRate = (double) correctCnt / (correctCnt + incorrectCnt) * 100
+		double correctRate = (double) correctCnt / (correctCnt + incorrectCnt) * 100;
+		re
