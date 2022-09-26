@@ -70,4 +70,5 @@ public class QuestionList implements Serializable {
 			return "0";
 		DecimalFormat df = new DecimalFormat("##.#");
 		double correctRate = (double) correctCnt / (correctCnt + incorrectCnt) * 100;
-		return df.format(correctRat
+		return df.format(correctRate);
+	}
