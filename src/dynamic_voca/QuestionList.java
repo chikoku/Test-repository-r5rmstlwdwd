@@ -72,3 +72,5 @@ public class QuestionList implements Serializable {
 		double correctRate = (double) correctCnt / (correctCnt + incorrectCnt) * 100;
 		return df.format(correctRate);
 	}
+
+	pu
