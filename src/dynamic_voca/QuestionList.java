@@ -73,4 +73,4 @@ public class QuestionList implements Serializable {
 		return df.format(correctRate);
 	}
 
-	public void addCorrectC
+	public void addCorrectCnt() {
