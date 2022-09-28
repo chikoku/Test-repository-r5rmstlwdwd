@@ -74,3 +74,4 @@ public class QuestionList implements Serializable {
 	}
 
 	public void addCorrectCnt() {
+		cor
