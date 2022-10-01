@@ -77,4 +77,4 @@ public class QuestionList implements Serializable {
 		correctCnt++;
 	}
 
-	public int getRemainedQue
+	public int getRemainedQuestion
