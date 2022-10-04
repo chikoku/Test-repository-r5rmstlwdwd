@@ -78,4 +78,5 @@ public class QuestionList implements Serializable {
 	}
 
 	public int getRemainedQuestionCnt() {
-		return questionVocas.size() - questionNu
+		return questionVocas.size() - questionNum;
+	}
