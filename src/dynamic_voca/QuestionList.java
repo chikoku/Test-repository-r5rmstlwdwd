@@ -81,4 +81,4 @@ public class QuestionList implements Serializable {
 		return questionVocas.size() - questionNum;
 	}
 
-	public int getCo
+	public int getCorrec
