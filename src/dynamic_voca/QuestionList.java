@@ -82,4 +82,6 @@ public class QuestionList implements Serializable {
 	}
 
 	public int getCorrectCnt() {
-		return correctCnt
+		return correctCnt;
+	}
+
