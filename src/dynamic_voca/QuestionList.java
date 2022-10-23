@@ -85,4 +85,4 @@ public class QuestionList implements Serializable {
 		return correctCnt;
 	}
 
-	public int getIncorrect
+	public int getIncorrectCnt(
