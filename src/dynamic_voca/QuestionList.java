@@ -90,4 +90,4 @@ public class QuestionList implements Serializable {
 	}
 
 	public boolean removeInQuestionVocas(Voca delVoca) {
-		return que
+		return ques
