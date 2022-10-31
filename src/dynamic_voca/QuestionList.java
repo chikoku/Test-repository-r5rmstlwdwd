@@ -89,4 +89,4 @@ public class QuestionList implements Serializable {
 		return incorrectCnt;
 	}
 
-	public boolean removeInQuestionVocas(V
+	public boolean removeInQuestionVocas(Voca del
