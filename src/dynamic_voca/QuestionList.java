@@ -93,4 +93,4 @@ public class QuestionList implements Serializable {
 		return questionVocas.remove(delVoca);
 	}
 
-	publi
+	public bo
