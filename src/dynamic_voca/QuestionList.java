@@ -98,3 +98,4 @@ public class QuestionList implements Serializable {
 	}
 
 	public boolean isEmptyQuestionVocas() {
+		retu
