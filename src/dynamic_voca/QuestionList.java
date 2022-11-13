@@ -98,4 +98,4 @@ public class QuestionList implements Serializable {
 	}
 
 	public boolean isEmptyQuestionVocas() {
-		return question
+		return questionVoca
