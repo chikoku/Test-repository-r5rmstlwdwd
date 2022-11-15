@@ -101,4 +101,4 @@ public class QuestionList implements Serializable {
 		return questionVocas.isEmpty();
 	}
 
-	public boolean isE
+	public boolean isEmpty
