@@ -102,4 +102,4 @@ public class QuestionList implements Serializable {
 	}
 
 	public boolean isEmptyReviewVocas() {
-		return 
+		return revi
