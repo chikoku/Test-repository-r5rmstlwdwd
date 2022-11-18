@@ -105,4 +105,4 @@ public class QuestionList implements Serializable {
 		return reviewVocas.isEmpty();
 	}
 
-	pu
+	publ
