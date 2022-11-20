@@ -105,4 +105,5 @@ public class QuestionList implements Serializable {
 		return reviewVocas.isEmpty();
 	}
 
-	public int getQuestionNum() 
+	public int getQuestionNum() {
+	
