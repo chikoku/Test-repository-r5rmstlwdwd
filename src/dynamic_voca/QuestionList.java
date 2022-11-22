@@ -106,4 +106,4 @@ public class QuestionList implements Serializable {
 	}
 
 	public int getQuestionNum() {
-		return qu
+		return quest
