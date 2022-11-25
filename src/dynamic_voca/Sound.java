@@ -16,3 +16,6 @@ public class Sound extends Thread {
 
 	public Sound(String name, boolean isLoop) {
 		try {
+			this.isLoop = isLoop;
+			file = new File("sound/"+name);
+			fis = new FileInputStream(file);
