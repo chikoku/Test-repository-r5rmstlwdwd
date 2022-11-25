@@ -31,3 +31,9 @@ public class Sound extends Thread {
 		player.close();
 		this.interrupt();
 	}
+
+	@Override
+	public void run() {
+		try {
+			do {
+				player.play();
