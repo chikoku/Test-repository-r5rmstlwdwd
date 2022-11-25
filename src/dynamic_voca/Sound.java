@@ -22,3 +22,12 @@ public class Sound extends Thread {
 			bis = new BufferedInputStream(fis);
 			player = new Player(bis);
 		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+
+	void close() {
+		isLoop = false;
+		player.close();
+		this.interrupt();
+	}
