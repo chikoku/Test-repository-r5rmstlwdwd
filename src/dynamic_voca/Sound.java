@@ -19,3 +19,6 @@ public class Sound extends Thread {
 			this.isLoop = isLoop;
 			file = new File("sound/"+name);
 			fis = new FileInputStream(file);
+			bis = new BufferedInputStream(fis);
+			player = new Player(bis);
+		} catch (Exception e) {
