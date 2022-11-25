@@ -110,4 +110,6 @@ public class QuestionList implements Serializable {
 	}
 
 	public void addQuestionNum() {
-		questionNum+
+		questionNum++;
+	}
+
