@@ -13,3 +13,6 @@ public class Sound extends Thread {
 	private File file;
 	private FileInputStream fis;
 	private BufferedInputStream bis;
+
+	public Sound(String name, boolean isLoop) {
+		try {
