@@ -8,3 +8,8 @@ import java.io.FileInputStream;
 import javazoom.jl.player.Player;
 
 public class Sound extends Thread {
+	private Player player;
+	private boolean isLoop;
+	private File file;
+	private FileInputStream fis;
+	private BufferedInputStream bis;
