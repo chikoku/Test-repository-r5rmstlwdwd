@@ -37,3 +37,12 @@ public class Sound extends Thread {
 		try {
 			do {
 				player.play();
+				fis = new FileInputStream(file);
+				bis = new BufferedInputStream(fis);
+				player = new Player(bis);
+			} while (isLoop);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+}
