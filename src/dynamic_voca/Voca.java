@@ -1,3 +1,3 @@
 package dynamic_voca;
 
-import 
+import ja
