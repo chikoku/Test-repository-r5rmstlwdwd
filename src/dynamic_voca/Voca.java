@@ -1,3 +1,3 @@
 package dynamic_voca;
 
-import java.io.Seria
+import java.io.Serializab
