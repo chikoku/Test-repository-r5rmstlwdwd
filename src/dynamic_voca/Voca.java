@@ -4,4 +4,4 @@ import java.io.Serializable;
 import java.util.Vector;
 
 @SuppressWarnings("serial")
-public class Voca implements Seri
+public class Voca implements Seriali
