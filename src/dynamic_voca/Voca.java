@@ -4,4 +4,4 @@ import java.io.Serializable;
 import java.util.Vector;
 
 @SuppressWarnings("serial")
-public class Voca
+public class Voca implem
