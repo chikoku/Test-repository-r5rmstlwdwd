@@ -5,4 +5,4 @@ import java.util.Vector;
 
 @SuppressWarnings("serial")
 public class Voca implements Serializable {
-	pri
+	private St
