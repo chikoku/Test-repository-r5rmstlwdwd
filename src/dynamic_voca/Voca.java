@@ -6,4 +6,4 @@ import java.util.Vector;
 @SuppressWarnings("serial")
 public class Voca implements Serializable {
 	private String english;
-	private Vector<
+	private Vector<String
