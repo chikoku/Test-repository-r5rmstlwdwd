@@ -7,3 +7,4 @@ import java.util.Vector;
 public class Voca implements Serializable {
 	private String english;
 	private Vector<String> koreans = new Vector<String>(5);
+	priv
