@@ -9,4 +9,4 @@ public class Voca implements Serializable {
 	private Vector<String> koreans = new Vector<String>(5);
 	private int mistakeCnt;
 
-	public Voca(Str
+	public Voca(String en
