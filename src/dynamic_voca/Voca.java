@@ -10,4 +10,5 @@ public class Voca implements Serializable {
 	private int mistakeCnt;
 
 	public Voca(String english, Vector<String> koreans) {
-		super()
+		super();
+		th
