@@ -12,4 +12,4 @@ public class Voca implements Serializable {
 	public Voca(String english, Vector<String> koreans) {
 		super();
 		this.english = english;
-		this.
+		this.ko
