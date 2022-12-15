@@ -13,3 +13,4 @@ public class Voca implements Serializable {
 		super();
 		this.english = english;
 		this.koreans = koreans;
+		th
