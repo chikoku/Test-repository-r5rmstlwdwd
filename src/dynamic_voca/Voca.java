@@ -15,3 +15,5 @@ public class Voca implements Serializable {
 		this.koreans = koreans;
 		this.mistakeCnt = 0;
 	}
+
+	p
