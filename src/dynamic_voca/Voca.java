@@ -16,4 +16,4 @@ public class Voca implements Serializable {
 		this.mistakeCnt = 0;
 	}
 
-	public String
+	public String g
