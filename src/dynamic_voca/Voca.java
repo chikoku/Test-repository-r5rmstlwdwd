@@ -16,4 +16,5 @@ public class Voca implements Serializable {
 		this.mistakeCnt = 0;
 	}
 
-	public String getEnglis
+	public String getEnglish() {
+		
