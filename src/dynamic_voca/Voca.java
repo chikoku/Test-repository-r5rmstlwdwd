@@ -17,4 +17,4 @@ public class Voca implements Serializable {
 	}
 
 	public String getEnglish() {
-		return
+		return engli
