@@ -21,3 +21,4 @@ public class Voca implements Serializable {
 	}
 
 	public void setEnglish(String english) {
+	
