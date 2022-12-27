@@ -20,4 +20,4 @@ public class Voca implements Serializable {
 		return english;
 	}
 
-	public void setEnglish(String engli
+	public void setEnglish(String english) {
