@@ -24,4 +24,4 @@ public class Voca implements Serializable {
 		this.english = english;
 	}
 
-	pu
+	public V
