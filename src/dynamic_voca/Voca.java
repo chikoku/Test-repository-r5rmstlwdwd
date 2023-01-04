@@ -25,4 +25,5 @@ public class Voca implements Serializable {
 	}
 
 	public Vector<String> getKoreans() {
-		return koreans
+		return koreans;
+	
