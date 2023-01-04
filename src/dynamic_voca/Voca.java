@@ -24,4 +24,5 @@ public class Voca implements Serializable {
 		this.english = english;
 	}
 
-	public Vector<String> getKoreans()
+	public Vector<String> getKoreans() {
+	
