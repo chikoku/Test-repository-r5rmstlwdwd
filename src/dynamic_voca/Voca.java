@@ -28,4 +28,4 @@ public class Voca implements Serializable {
 		return koreans;
 	}
 
-	p
+	public 
