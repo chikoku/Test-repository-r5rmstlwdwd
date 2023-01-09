@@ -28,4 +28,4 @@ public class Voca implements Serializable {
 		return koreans;
 	}
 
-	public void setKoreans(Ve
+	public void setKoreans(Vector<St
