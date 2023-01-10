@@ -29,4 +29,4 @@ public class Voca implements Serializable {
 	}
 
 	public void setKoreans(Vector<String> koreans) {
-		this.koreans = korea
+		this.koreans = koreans;
