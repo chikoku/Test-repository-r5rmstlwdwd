@@ -32,4 +32,4 @@ public class Voca implements Serializable {
 		this.koreans = koreans;
 	}
 
-	pub
+	publi
