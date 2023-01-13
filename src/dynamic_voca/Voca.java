@@ -32,4 +32,5 @@ public class Voca implements Serializable {
 		this.koreans = koreans;
 	}
 
-	public int getMistakeCnt()
+	public int getMistakeCnt() {
+		re
