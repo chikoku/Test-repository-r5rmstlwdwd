@@ -36,4 +36,4 @@ public class Voca implements Serializable {
 		return mistakeCnt;
 	}
 
-	public voi
+	public void set
