@@ -40,4 +40,4 @@ public class Voca implements Serializable {
 		this.mistakeCnt = mistakeCnt;
 	}
 
-	public void addMistakeCnt() 
+	public void addMistakeCnt() {
