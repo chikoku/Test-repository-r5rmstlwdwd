@@ -44,4 +44,4 @@ public class Voca implements Serializable {
 		mistakeCnt++;
 	}
 
-	public int hash
+	public int hashCode()
