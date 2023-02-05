@@ -45,4 +45,4 @@ public class Voca implements Serializable {
 	}
 
 	public int hashCode() {
-		return eng
+		return english.
