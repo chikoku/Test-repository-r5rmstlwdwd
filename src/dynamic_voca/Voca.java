@@ -48,4 +48,4 @@ public class Voca implements Serializable {
 		return english.hashCode();
 	}
 
-	public boolean equals
+	public boolean equals(Obj
