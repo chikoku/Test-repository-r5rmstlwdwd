@@ -49,4 +49,4 @@ public class Voca implements Serializable {
 	}
 
 	public boolean equals(Object obj) {
-		String
+		String s = ((
