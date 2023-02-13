@@ -50,4 +50,5 @@ public class Voca implements Serializable {
 
 	public boolean equals(Object obj) {
 		String s = ((Voca) obj).english;
-		if (english.compareTo(s) == 0
+		if (english.compareTo(s) == 0)
+		
