@@ -53,4 +53,4 @@ public class Voca implements Serializable {
 		if (english.compareTo(s) == 0)
 			return true;
 		else
-		
+			r
