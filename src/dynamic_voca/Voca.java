@@ -55,3 +55,4 @@ public class Voca implements Serializable {
 		else
 			return false;
 	}
+	
