@@ -1,3 +1,3 @@
 package exception;
 
-@SuppressWar
+@SuppressWarnings("
