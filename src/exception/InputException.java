@@ -1,3 +1,3 @@
 package exception;
 
-@SuppressWarnings("seri
+@SuppressWarnings("serial"
