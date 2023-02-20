@@ -1,4 +1,4 @@
 package exception;
 
 @SuppressWarnings("serial")
-public cla
+public class InputE
