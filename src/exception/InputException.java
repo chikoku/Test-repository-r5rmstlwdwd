@@ -1,4 +1,4 @@
 package exception;
 
 @SuppressWarnings("serial")
-public class InputException
+public class InputException extend
