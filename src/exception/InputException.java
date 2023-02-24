@@ -3,4 +3,4 @@ package exception;
 @SuppressWarnings("serial")
 public class InputException extends Exception {
 	public InputException(String msg) {
-		supe
+		super(ms
